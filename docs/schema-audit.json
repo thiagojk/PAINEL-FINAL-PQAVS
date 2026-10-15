@@ -1,0 +1,3151 @@
+{
+  "PQA_VS_2013": {
+    "rows": 5570,
+    "columns": [
+      "ANO",
+      "UF",
+      "COD_MUN",
+      "NOME_MUN",
+      "POP_ANO",
+      "IND_01_NUM",
+      "IND_01_DEN",
+      "IND_01_RES",
+      "IND_01_META",
+      "IND_01_ALCANCE_META",
+      "IND_02_NUM",
+      "IND_02_DEN",
+      "IND_02_RES",
+      "IND_02_META",
+      "IND_02_ALCANCE_META",
+      "IND_03_NUM",
+      "IND_03_DEN",
+      "IND_03_RES",
+      "IND_03_META",
+      "IND_03_ALCANCE_META",
+      "IND_04_NUM",
+      "IND_04_DEN",
+      "IND_04_RES",
+      "IND_04_META",
+      "IND_04_ALCANCE_META",
+      "IND_05_NUM",
+      "IND_05_DEN",
+      "IND_05_RES",
+      "IND_05_META",
+      "IND_05_ALCANCE_META",
+      "IND_06_NUM",
+      "IND_06_DEN",
+      "IND_06_RES",
+      "IND_06_META",
+      "IND_06_ALCANCE_META",
+      "IND_07_NUM",
+      "IND_07_DEN",
+      "IND_07_RES",
+      "IND_07_META",
+      "IND_07_ALCANCE_META",
+      "IND_08_NUM",
+      "IND_08_DEN",
+      "IND_08_RES",
+      "IND_08_META",
+      "IND_08_ALCANCE_META",
+      "IND_09_NUM",
+      "IND_09_DEN",
+      "IND_09_RES",
+      "IND_09_META",
+      "IND_09_ALCANCE_META",
+      "IND_10_NUM",
+      "IND_10_DEN",
+      "IND_10_RES",
+      "IND_10_META",
+      "IND_10_ALCANCE_META",
+      "IND_11_NUM",
+      "IND_11_DEN",
+      "IND_11_RES",
+      "IND_11_META",
+      "IND_11_ALCANCE_META",
+      "IND_12_NUM",
+      "IND_12_DEN",
+      "IND_12_RES",
+      "IND_12_META",
+      "IND_12_ALCANCE_META",
+      "IND_13_NUM",
+      "IND_13_DEN",
+      "IND_13_RES",
+      "IND_13_META",
+      "IND_13_ALCANCE_META",
+      "IND_14_NUM",
+      "IND_14_DEN",
+      "IND_14_RES",
+      "IND_14_META",
+      "IND_14_ALCANCE_META",
+      "IND_15_NUM",
+      "IND_15_DEN",
+      "IND_15_RES",
+      "IND_15_META",
+      "IND_15_ALCANCE_META",
+      "VL_PQA_VS",
+      "METAS_ALCANCADAS",
+      "METAS_NAO_ALCANCADAS",
+      "QTDE_INDICADORES",
+      "QTDE_AUSENCIA_CASOS",
+      "PERCENTUAL"
+    ],
+    "years": [
+      2013
+    ],
+    "ufs": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "municipalities": 5570,
+    "duplicates": 0,
+    "missing": {
+      "ANO": 0,
+      "UF": 0,
+      "COD_MUN": 0,
+      "NOME_MUN": 0,
+      "POP_ANO": 152,
+      "IND_01_NUM": 0,
+      "IND_01_DEN": 0,
+      "IND_01_RES": 0,
+      "IND_01_META": 0,
+      "IND_01_ALCANCE_META": 0,
+      "IND_02_NUM": 0,
+      "IND_02_DEN": 0,
+      "IND_02_RES": 0,
+      "IND_02_META": 0,
+      "IND_02_ALCANCE_META": 0,
+      "IND_03_NUM": 0,
+      "IND_03_DEN": 0,
+      "IND_03_RES": 0,
+      "IND_03_META": 0,
+      "IND_03_ALCANCE_META": 0,
+      "IND_04_NUM": 0,
+      "IND_04_DEN": 0,
+      "IND_04_RES": 0,
+      "IND_04_META": 0,
+      "IND_04_ALCANCE_META": 0,
+      "IND_05_NUM": 0,
+      "IND_05_DEN": 0,
+      "IND_05_RES": 0,
+      "IND_05_META": 0,
+      "IND_05_ALCANCE_META": 0,
+      "IND_06_NUM": 0,
+      "IND_06_DEN": 0,
+      "IND_06_RES": 0,
+      "IND_06_META": 0,
+      "IND_06_ALCANCE_META": 0,
+      "IND_07_NUM": 0,
+      "IND_07_DEN": 0,
+      "IND_07_RES": 0,
+      "IND_07_META": 0,
+      "IND_07_ALCANCE_META": 0,
+      "IND_08_NUM": 0,
+      "IND_08_DEN": 0,
+      "IND_08_RES": 0,
+      "IND_08_META": 0,
+      "IND_08_ALCANCE_META": 0,
+      "IND_09_NUM": 78,
+      "IND_09_DEN": 5570,
+      "IND_09_RES": 5570,
+      "IND_09_META": 0,
+      "IND_09_ALCANCE_META": 0,
+      "IND_10_NUM": 0,
+      "IND_10_DEN": 0,
+      "IND_10_RES": 0,
+      "IND_10_META": 0,
+      "IND_10_ALCANCE_META": 0,
+      "IND_11_NUM": 0,
+      "IND_11_DEN": 0,
+      "IND_11_RES": 0,
+      "IND_11_META": 0,
+      "IND_11_ALCANCE_META": 0,
+      "IND_12_NUM": 0,
+      "IND_12_DEN": 0,
+      "IND_12_RES": 0,
+      "IND_12_META": 0,
+      "IND_12_ALCANCE_META": 0,
+      "IND_13_NUM": 0,
+      "IND_13_DEN": 0,
+      "IND_13_RES": 0,
+      "IND_13_META": 0,
+      "IND_13_ALCANCE_META": 0,
+      "IND_14_NUM": 0,
+      "IND_14_DEN": 0,
+      "IND_14_RES": 0,
+      "IND_14_META": 0,
+      "IND_14_ALCANCE_META": 0,
+      "IND_15_NUM": 5570,
+      "IND_15_DEN": 5570,
+      "IND_15_RES": 5570,
+      "IND_15_META": 0,
+      "IND_15_ALCANCE_META": 5570,
+      "VL_PQA_VS": 152,
+      "METAS_ALCANCADAS": 156,
+      "METAS_NAO_ALCANCADAS": 156,
+      "QTDE_INDICADORES": 0,
+      "QTDE_AUSENCIA_CASOS": 0,
+      "PERCENTUAL": 152
+    },
+    "status": {
+      "IND_01_META": {
+        "Não": 3102,
+        "Sim": 2468
+      },
+      "IND_01_ALCANCE_META": {
+        "0": 3102,
+        "1": 2468
+      },
+      "IND_02_META": {
+        "Sim": 2971,
+        "Não": 2599
+      },
+      "IND_02_ALCANCE_META": {
+        "1": 2971,
+        "0": 2599
+      },
+      "IND_03_META": {
+        "Não": 4657,
+        "Sim": 913
+      },
+      "IND_03_ALCANCE_META": {
+        "0": 4657,
+        "1": 913
+      },
+      "IND_04_META": {
+        "Não": 4617,
+        "Sim": 953
+      },
+      "IND_04_ALCANCE_META": {
+        "0": 4617,
+        "1": 953
+      },
+      "IND_05_META": {
+        "Não": 4271,
+        "Sim": 1299
+      },
+      "IND_05_ALCANCE_META": {
+        "0": 4271,
+        "1": 1299
+      },
+      "IND_06_META": {
+        "Sim": 4334,
+        "Não": 1236
+      },
+      "IND_06_ALCANCE_META": {
+        "1": 4334,
+        "0": 1236
+      },
+      "IND_07_META": {
+        "Não": 2987,
+        "Sim": 2583
+      },
+      "IND_07_ALCANCE_META": {
+        "0": 2987,
+        "1": 2583
+      },
+      "IND_08_META": {
+        "Não": 5466,
+        "Sim": 104
+      },
+      "IND_08_ALCANCE_META": {
+        "1": 4888,
+        "0": 682
+      },
+      "IND_09_META": {
+        "Sim": 2895,
+        "Não": 2675
+      },
+      "IND_09_ALCANCE_META": {
+        "1": 2895,
+        "0": 2675
+      },
+      "IND_10_META": {
+        "Não": 3534,
+        "Sim": 2036
+      },
+      "IND_10_ALCANCE_META": {
+        "0": 3534,
+        "1": 2036
+      },
+      "IND_11_META": {
+        "Não": 4198,
+        "Sim": 1372
+      },
+      "IND_11_ALCANCE_META": {
+        "0": 4198,
+        "1": 1372
+      },
+      "IND_12_META": {
+        "Não": 4755,
+        "Sim": 815
+      },
+      "IND_12_ALCANCE_META": {
+        "0": 4755,
+        "1": 815
+      },
+      "IND_13_META": {
+        "Não": 4367,
+        "Sim": 1203
+      },
+      "IND_13_ALCANCE_META": {
+        "0": 4367,
+        "1": 1203
+      },
+      "IND_14_META": {
+        "Não": 2814,
+        "Sim": 2756
+      },
+      "IND_14_ALCANCE_META": {
+        "0": 2814,
+        "1": 2756
+      },
+      "IND_15_META": {
+        "0": 5570
+      },
+      "IND_15_ALCANCE_META": {
+        "nan": 5570
+      }
+    },
+    "zero_denominators": {
+      "IND_01_DEN": 6,
+      "IND_02_DEN": 5,
+      "IND_03_DEN": 5,
+      "IND_04_DEN": 5,
+      "IND_05_DEN": 0,
+      "IND_06_DEN": 4,
+      "IND_07_DEN": 1365,
+      "IND_08_DEN": 4784,
+      "IND_09_DEN": 0,
+      "IND_10_DEN": 2645,
+      "IND_11_DEN": 2471,
+      "IND_12_DEN": 14,
+      "IND_13_DEN": 3282,
+      "IND_14_DEN": 2264,
+      "IND_15_DEN": 0
+    }
+  },
+  "PQA_VS_2014": {
+    "rows": 5570,
+    "columns": [
+      "ANO",
+      "UF",
+      "COD_MUN",
+      "NOME_MUN",
+      "POP_ANO",
+      "IND_01_NUM",
+      "IND_01_DEN",
+      "IND_01_RES",
+      "IND_01_META",
+      "IND_01_ALCANCE_META",
+      "IND_02_NUM",
+      "IND_02_DEN",
+      "IND_02_RES",
+      "IND_02_META",
+      "IND_02_ALCANCE_META",
+      "IND_03_NUM",
+      "IND_03_DEN",
+      "IND_03_RES",
+      "IND_03_META",
+      "IND_03_ALCANCE_META",
+      "IND_04_NUM",
+      "IND_04_DEN",
+      "IND_04_RES",
+      "IND_04_META",
+      "IND_04_ALCANCE_META",
+      "IND_05_NUM",
+      "IND_05_DEN",
+      "IND_05_RES",
+      "IND_05_META",
+      "IND_05_ALCANCE_META",
+      "IND_06_NUM",
+      "IND_06_DEN",
+      "IND_06_RES",
+      "IND_06_META",
+      "IND_06_ALCANCE_META",
+      "IND_07_NUM",
+      "IND_07_DEN",
+      "IND_07_RES",
+      "IND_07_META",
+      "IND_07_ALCANCE_META",
+      "IND_08_NUM",
+      "IND_08_DEN",
+      "IND_08_RES",
+      "IND_08_META",
+      "IND_08_ALCANCE_META",
+      "IND_09_NUM",
+      "IND_09_DEN",
+      "IND_09_RES",
+      "IND_09_META",
+      "IND_09_ALCANCE_META",
+      "IND_10_NUM",
+      "IND_10_DEN",
+      "IND_10_RES",
+      "IND_10_META",
+      "IND_10_ALCANCE_META",
+      "IND_11_NUM",
+      "IND_11_DEN",
+      "IND_11_RES",
+      "IND_11_META",
+      "IND_11_ALCANCE_META",
+      "IND_12_NUM",
+      "IND_12_DEN",
+      "IND_12_RES",
+      "IND_12_META",
+      "IND_12_ALCANCE_META",
+      "IND_13_NUM",
+      "IND_13_DEN",
+      "IND_13_RES",
+      "IND_13_META",
+      "IND_13_ALCANCE_META",
+      "IND_14_NUM",
+      "IND_14_DEN",
+      "IND_14_RES",
+      "IND_14_META",
+      "IND_14_ALCANCE_META",
+      "IND_15_NUM",
+      "IND_15_DEN",
+      "IND_15_RES",
+      "IND_15_META",
+      "IND_15_ALCANCE_META",
+      "VL_PQA_VS",
+      "METAS_ALCANCADAS",
+      "METAS_NAO_ALCANCADAS",
+      "QTDE_INDICADORES",
+      "QTDE_AUSENCIA_CASOS",
+      "PERCENTUAL"
+    ],
+    "years": [
+      2014
+    ],
+    "ufs": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "municipalities": 5570,
+    "duplicates": 0,
+    "missing": {
+      "ANO": 0,
+      "UF": 0,
+      "COD_MUN": 0,
+      "NOME_MUN": 0,
+      "POP_ANO": 124,
+      "IND_01_NUM": 0,
+      "IND_01_DEN": 0,
+      "IND_01_RES": 0,
+      "IND_01_META": 0,
+      "IND_01_ALCANCE_META": 0,
+      "IND_02_NUM": 0,
+      "IND_02_DEN": 0,
+      "IND_02_RES": 0,
+      "IND_02_META": 0,
+      "IND_02_ALCANCE_META": 0,
+      "IND_03_NUM": 0,
+      "IND_03_DEN": 0,
+      "IND_03_RES": 0,
+      "IND_03_META": 0,
+      "IND_03_ALCANCE_META": 0,
+      "IND_04_NUM": 0,
+      "IND_04_DEN": 0,
+      "IND_04_RES": 0,
+      "IND_04_META": 0,
+      "IND_04_ALCANCE_META": 0,
+      "IND_05_NUM": 0,
+      "IND_05_DEN": 0,
+      "IND_05_RES": 0,
+      "IND_05_META": 0,
+      "IND_05_ALCANCE_META": 0,
+      "IND_06_NUM": 5570,
+      "IND_06_DEN": 5570,
+      "IND_06_RES": 0,
+      "IND_06_META": 0,
+      "IND_06_ALCANCE_META": 0,
+      "IND_07_NUM": 0,
+      "IND_07_DEN": 0,
+      "IND_07_RES": 0,
+      "IND_07_META": 0,
+      "IND_07_ALCANCE_META": 0,
+      "IND_08_NUM": 0,
+      "IND_08_DEN": 0,
+      "IND_08_RES": 0,
+      "IND_08_META": 0,
+      "IND_08_ALCANCE_META": 0,
+      "IND_09_NUM": 5570,
+      "IND_09_DEN": 5570,
+      "IND_09_RES": 0,
+      "IND_09_META": 0,
+      "IND_09_ALCANCE_META": 0,
+      "IND_10_NUM": 2630,
+      "IND_10_DEN": 2630,
+      "IND_10_RES": 2630,
+      "IND_10_META": 0,
+      "IND_10_ALCANCE_META": 0,
+      "IND_11_NUM": 0,
+      "IND_11_DEN": 0,
+      "IND_11_RES": 0,
+      "IND_11_META": 0,
+      "IND_11_ALCANCE_META": 0,
+      "IND_12_NUM": 0,
+      "IND_12_DEN": 0,
+      "IND_12_RES": 0,
+      "IND_12_META": 0,
+      "IND_12_ALCANCE_META": 0,
+      "IND_13_NUM": 0,
+      "IND_13_DEN": 0,
+      "IND_13_RES": 0,
+      "IND_13_META": 0,
+      "IND_13_ALCANCE_META": 0,
+      "IND_14_NUM": 1090,
+      "IND_14_DEN": 1090,
+      "IND_14_RES": 1090,
+      "IND_14_META": 0,
+      "IND_14_ALCANCE_META": 0,
+      "IND_15_NUM": 5570,
+      "IND_15_DEN": 5570,
+      "IND_15_RES": 5570,
+      "IND_15_META": 0,
+      "IND_15_ALCANCE_META": 5570,
+      "VL_PQA_VS": 124,
+      "METAS_ALCANCADAS": 124,
+      "METAS_NAO_ALCANCADAS": 124,
+      "QTDE_INDICADORES": 0,
+      "QTDE_AUSENCIA_CASOS": 0,
+      "PERCENTUAL": 124
+    },
+    "status": {
+      "IND_01_META": {
+        "Não": 3238,
+        "Sim": 2332
+      },
+      "IND_01_ALCANCE_META": {
+        "0": 3238,
+        "1": 2332
+      },
+      "IND_02_META": {
+        "Sim": 3034,
+        "Não": 2536
+      },
+      "IND_02_ALCANCE_META": {
+        "1": 3034,
+        "0": 2536
+      },
+      "IND_03_META": {
+        "Não": 3530,
+        "Sim": 2040
+      },
+      "IND_03_ALCANCE_META": {
+        "0": 3530,
+        "1": 2040
+      },
+      "IND_04_META": {
+        "Não": 5004,
+        "Sim": 566
+      },
+      "IND_04_ALCANCE_META": {
+        "0": 5004,
+        "1": 566
+      },
+      "IND_05_META": {
+        "Não": 4397,
+        "Sim": 1173
+      },
+      "IND_05_ALCANCE_META": {
+        "0": 4397,
+        "1": 1173
+      },
+      "IND_06_META": {
+        "Sim": 4278,
+        "Não": 1292
+      },
+      "IND_06_ALCANCE_META": {
+        "1": 4278,
+        "0": 1292
+      },
+      "IND_07_META": {
+        "Não": 3627,
+        "Sim": 1943
+      },
+      "IND_07_ALCANCE_META": {
+        "0": 3627,
+        "1": 1943
+      },
+      "IND_08_META": {
+        "Não": 5475,
+        "Sim": 95
+      },
+      "IND_08_ALCANCE_META": {
+        "0": 5475,
+        "1": 95
+      },
+      "IND_09_META": {
+        "Sim": 3447,
+        "Não": 2123
+      },
+      "IND_09_ALCANCE_META": {
+        "1": 3447,
+        "0": 2123
+      },
+      "IND_10_META": {
+        "Não": 3459,
+        "Sim": 2111
+      },
+      "IND_10_ALCANCE_META": {
+        "0": 3459,
+        "1": 2111
+      },
+      "IND_11_META": {
+        "Não": 4144,
+        "Sim": 1426
+      },
+      "IND_11_ALCANCE_META": {
+        "0": 4144,
+        "1": 1426
+      },
+      "IND_12_META": {
+        "Não": 4664,
+        "Sim": 906
+      },
+      "IND_12_ALCANCE_META": {
+        "0": 4664,
+        "1": 906
+      },
+      "IND_13_META": {
+        "Sim": 3820,
+        "Não": 1750
+      },
+      "IND_13_ALCANCE_META": {
+        "1": 3820,
+        "0": 1750
+      },
+      "IND_14_META": {
+        "Sim": 3824,
+        "Não": 1746
+      },
+      "IND_14_ALCANCE_META": {
+        "1": 3824,
+        "0": 1746
+      },
+      "IND_15_META": {
+        "0": 5570
+      },
+      "IND_15_ALCANCE_META": {
+        "nan": 5570
+      }
+    },
+    "zero_denominators": {
+      "IND_01_DEN": 0,
+      "IND_02_DEN": 1,
+      "IND_03_DEN": 5,
+      "IND_04_DEN": 0,
+      "IND_05_DEN": 0,
+      "IND_06_DEN": 0,
+      "IND_07_DEN": 2379,
+      "IND_08_DEN": 5007,
+      "IND_09_DEN": 0,
+      "IND_10_DEN": 2,
+      "IND_11_DEN": 2613,
+      "IND_12_DEN": 9,
+      "IND_13_DEN": 884,
+      "IND_14_DEN": 0,
+      "IND_15_DEN": 0
+    }
+  },
+  "PQA_VS_2015": {
+    "rows": 5570,
+    "columns": [
+      "ANO",
+      "UF",
+      "COD_MUN",
+      "NOME_MUN",
+      "POP_ANO",
+      "IND_01_NUM",
+      "IND_01_DEN",
+      "IND_01_RES",
+      "IND_01_META",
+      "IND_01_ALCANCE_META",
+      "IND_02_NUM",
+      "IND_02_DEN",
+      "IND_02_RES",
+      "IND_02_META",
+      "IND_02_ALCANCE_META",
+      "IND_03_NUM",
+      "IND_03_DEN",
+      "IND_03_RES",
+      "IND_03_META",
+      "IND_03_ALCANCE_META",
+      "IND_04_NUM",
+      "IND_04_DEN",
+      "IND_04_RES",
+      "IND_04_META",
+      "IND_04_ALCANCE_META",
+      "IND_05_NUM",
+      "IND_05_DEN",
+      "IND_05_RES",
+      "IND_05_META",
+      "IND_05_ALCANCE_META",
+      "IND_06_NUM",
+      "IND_06_DEN",
+      "IND_06_RES",
+      "IND_06_META",
+      "IND_06_ALCANCE_META",
+      "IND_07_NUM",
+      "IND_07_DEN",
+      "IND_07_RES",
+      "IND_07_META",
+      "IND_07_ALCANCE_META",
+      "IND_08_NUM",
+      "IND_08_DEN",
+      "IND_08_RES",
+      "IND_08_META",
+      "IND_08_ALCANCE_META",
+      "IND_09_NUM",
+      "IND_09_DEN",
+      "IND_09_RES",
+      "IND_09_META",
+      "IND_09_ALCANCE_META",
+      "IND_10_NUM",
+      "IND_10_DEN",
+      "IND_10_RES",
+      "IND_10_META",
+      "IND_10_ALCANCE_META",
+      "IND_11_NUM",
+      "IND_11_DEN",
+      "IND_11_RES",
+      "IND_11_META",
+      "IND_11_ALCANCE_META",
+      "IND_12_NUM",
+      "IND_12_DEN",
+      "IND_12_RES",
+      "IND_12_META",
+      "IND_12_ALCANCE_META",
+      "IND_13_NUM",
+      "IND_13_DEN",
+      "IND_13_RES",
+      "IND_13_META",
+      "IND_13_ALCANCE_META",
+      "IND_14_NUM",
+      "IND_14_DEN",
+      "IND_14_RES",
+      "IND_14_META",
+      "IND_14_ALCANCE_META",
+      "IND_15_NUM",
+      "IND_15_DEN",
+      "IND_15_RES",
+      "IND_15_META",
+      "IND_15_ALCANCE_META",
+      "VL_PQA_VS",
+      "METAS_ALCANCADAS",
+      "METAS_NAO_ALCANCADAS",
+      "QTDE_INDICADORES",
+      "QTDE_AUSENCIA_CASOS",
+      "PERCENTUAL"
+    ],
+    "years": [
+      2015
+    ],
+    "ufs": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "municipalities": 5570,
+    "duplicates": 0,
+    "missing": {
+      "ANO": 0,
+      "UF": 0,
+      "COD_MUN": 0,
+      "NOME_MUN": 0,
+      "POP_ANO": 96,
+      "IND_01_NUM": 0,
+      "IND_01_DEN": 0,
+      "IND_01_RES": 0,
+      "IND_01_META": 0,
+      "IND_01_ALCANCE_META": 0,
+      "IND_02_NUM": 0,
+      "IND_02_DEN": 0,
+      "IND_02_RES": 0,
+      "IND_02_META": 0,
+      "IND_02_ALCANCE_META": 0,
+      "IND_03_NUM": 0,
+      "IND_03_DEN": 0,
+      "IND_03_RES": 0,
+      "IND_03_META": 0,
+      "IND_03_ALCANCE_META": 0,
+      "IND_04_NUM": 0,
+      "IND_04_DEN": 0,
+      "IND_04_RES": 0,
+      "IND_04_META": 0,
+      "IND_04_ALCANCE_META": 0,
+      "IND_05_NUM": 0,
+      "IND_05_DEN": 0,
+      "IND_05_RES": 0,
+      "IND_05_META": 0,
+      "IND_05_ALCANCE_META": 0,
+      "IND_06_NUM": 5570,
+      "IND_06_DEN": 5570,
+      "IND_06_RES": 0,
+      "IND_06_META": 0,
+      "IND_06_ALCANCE_META": 0,
+      "IND_07_NUM": 0,
+      "IND_07_DEN": 0,
+      "IND_07_RES": 0,
+      "IND_07_META": 0,
+      "IND_07_ALCANCE_META": 0,
+      "IND_08_NUM": 0,
+      "IND_08_DEN": 0,
+      "IND_08_RES": 0,
+      "IND_08_META": 0,
+      "IND_08_ALCANCE_META": 0,
+      "IND_09_NUM": 5570,
+      "IND_09_DEN": 5570,
+      "IND_09_RES": 1,
+      "IND_09_META": 0,
+      "IND_09_ALCANCE_META": 0,
+      "IND_10_NUM": 0,
+      "IND_10_DEN": 0,
+      "IND_10_RES": 0,
+      "IND_10_META": 0,
+      "IND_10_ALCANCE_META": 0,
+      "IND_11_NUM": 0,
+      "IND_11_DEN": 0,
+      "IND_11_RES": 0,
+      "IND_11_META": 0,
+      "IND_11_ALCANCE_META": 0,
+      "IND_12_NUM": 0,
+      "IND_12_DEN": 0,
+      "IND_12_RES": 0,
+      "IND_12_META": 0,
+      "IND_12_ALCANCE_META": 0,
+      "IND_13_NUM": 0,
+      "IND_13_DEN": 0,
+      "IND_13_RES": 0,
+      "IND_13_META": 0,
+      "IND_13_ALCANCE_META": 0,
+      "IND_14_NUM": 1038,
+      "IND_14_DEN": 1038,
+      "IND_14_RES": 1038,
+      "IND_14_META": 0,
+      "IND_14_ALCANCE_META": 0,
+      "IND_15_NUM": 5570,
+      "IND_15_DEN": 5570,
+      "IND_15_RES": 5570,
+      "IND_15_META": 0,
+      "IND_15_ALCANCE_META": 5570,
+      "VL_PQA_VS": 96,
+      "METAS_ALCANCADAS": 96,
+      "METAS_NAO_ALCANCADAS": 96,
+      "QTDE_INDICADORES": 0,
+      "QTDE_AUSENCIA_CASOS": 0,
+      "PERCENTUAL": 96
+    },
+    "status": {
+      "IND_01_META": {
+        "Sim": 3041,
+        "Não": 2529
+      },
+      "IND_01_ALCANCE_META": {
+        "1": 3041,
+        "0": 2529
+      },
+      "IND_02_META": {
+        "Sim": 3413,
+        "Não": 2157
+      },
+      "IND_02_ALCANCE_META": {
+        "1": 3413,
+        "0": 2157
+      },
+      "IND_03_META": {
+        "Não": 2938,
+        "Sim": 2632
+      },
+      "IND_03_ALCANCE_META": {
+        "0": 2938,
+        "1": 2632
+      },
+      "IND_04_META": {
+        "Não": 4480,
+        "Sim": 1090
+      },
+      "IND_04_ALCANCE_META": {
+        "0": 4480,
+        "1": 1090
+      },
+      "IND_05_META": {
+        "Não": 4131,
+        "Sim": 1439
+      },
+      "IND_05_ALCANCE_META": {
+        "0": 4131,
+        "1": 1439
+      },
+      "IND_06_META": {
+        "Sim": 4324,
+        "Não": 1246
+      },
+      "IND_06_ALCANCE_META": {
+        "1": 4324,
+        "0": 1246
+      },
+      "IND_07_META": {
+        "Não": 3991,
+        "Sim": 1579
+      },
+      "IND_07_ALCANCE_META": {
+        "0": 3991,
+        "1": 1579
+      },
+      "IND_08_META": {
+        "Não": 5485,
+        "Sim": 85
+      },
+      "IND_08_ALCANCE_META": {
+        "0": 5485,
+        "1": 85
+      },
+      "IND_09_META": {
+        "Sim": 3441,
+        "Não": 2129
+      },
+      "IND_09_ALCANCE_META": {
+        "1": 3441,
+        "0": 2129
+      },
+      "IND_10_META": {
+        "Não": 3536,
+        "Sim": 2034
+      },
+      "IND_10_ALCANCE_META": {
+        "0": 3536,
+        "1": 2034
+      },
+      "IND_11_META": {
+        "Não": 4180,
+        "Sim": 1390
+      },
+      "IND_11_ALCANCE_META": {
+        "0": 4180,
+        "1": 1390
+      },
+      "IND_12_META": {
+        "Não": 4578,
+        "Sim": 992
+      },
+      "IND_12_ALCANCE_META": {
+        "0": 4578,
+        "1": 992
+      },
+      "IND_13_META": {
+        "Não": 3189,
+        "Sim": 2381
+      },
+      "IND_13_ALCANCE_META": {
+        "0": 3189,
+        "1": 2381
+      },
+      "IND_14_META": {
+        "Sim": 4070,
+        "Não": 1500
+      },
+      "IND_14_ALCANCE_META": {
+        "1": 4070,
+        "0": 1500
+      },
+      "IND_15_META": {
+        "0": 5570
+      },
+      "IND_15_ALCANCE_META": {
+        "nan": 5570
+      }
+    },
+    "zero_denominators": {
+      "IND_01_DEN": 0,
+      "IND_02_DEN": 0,
+      "IND_03_DEN": 5,
+      "IND_04_DEN": 0,
+      "IND_05_DEN": 0,
+      "IND_06_DEN": 0,
+      "IND_07_DEN": 2421,
+      "IND_08_DEN": 5064,
+      "IND_09_DEN": 0,
+      "IND_10_DEN": 2652,
+      "IND_11_DEN": 2707,
+      "IND_12_DEN": 8,
+      "IND_13_DEN": 691,
+      "IND_14_DEN": 0,
+      "IND_15_DEN": 0
+    }
+  },
+  "PQA_VS_2016": {
+    "rows": 5570,
+    "columns": [
+      "ANO",
+      "UF",
+      "COD_MUN",
+      "NOME_MUN",
+      "POP_ANO",
+      "IND_01_NUM",
+      "IND_01_DEN",
+      "IND_01_RES",
+      "IND_01_META",
+      "IND_01_ALCANCE_META",
+      "IND_02_NUM",
+      "IND_02_DEN",
+      "IND_02_RES",
+      "IND_02_META",
+      "IND_02_ALCANCE_META",
+      "IND_03_NUM",
+      "IND_03_DEN",
+      "IND_03_RES",
+      "IND_03_META",
+      "IND_03_ALCANCE_META",
+      "IND_04_NUM",
+      "IND_04_DEN",
+      "IND_04_RES",
+      "IND_04_META",
+      "IND_04_ALCANCE_META",
+      "IND_05_NUM",
+      "IND_05_DEN",
+      "IND_05_RES",
+      "IND_05_META",
+      "IND_05_ALCANCE_META",
+      "IND_06_NUM",
+      "IND_06_DEN",
+      "IND_06_RES",
+      "IND_06_META",
+      "IND_06_ALCANCE_META",
+      "IND_07_NUM",
+      "IND_07_DEN",
+      "IND_07_RES",
+      "IND_07_META",
+      "IND_07_ALCANCE_META",
+      "IND_08_NUM",
+      "IND_08_DEN",
+      "IND_08_RES",
+      "IND_08_META",
+      "IND_08_ALCANCE_META",
+      "IND_09_NUM",
+      "IND_09_DEN",
+      "IND_09_RES",
+      "IND_09_META",
+      "IND_09_ALCANCE_META",
+      "IND_10_NUM",
+      "IND_10_DEN",
+      "IND_10_RES",
+      "IND_10_META",
+      "IND_10_ALCANCE_META",
+      "IND_11_NUM",
+      "IND_11_DEN",
+      "IND_11_RES",
+      "IND_11_META",
+      "IND_11_ALCANCE_META",
+      "IND_12_NUM",
+      "IND_12_DEN",
+      "IND_12_RES",
+      "IND_12_META",
+      "IND_12_ALCANCE_META",
+      "IND_13_NUM",
+      "IND_13_DEN",
+      "IND_13_RES",
+      "IND_13_META",
+      "IND_13_ALCANCE_META",
+      "IND_14_NUM",
+      "IND_14_DEN",
+      "IND_14_RES",
+      "IND_14_META",
+      "IND_14_ALCANCE_META",
+      "IND_15_NUM",
+      "IND_15_DEN",
+      "IND_15_RES",
+      "IND_15_META",
+      "IND_15_ALCANCE_META",
+      "VL_PQA_VS",
+      "METAS_ALCANCADAS",
+      "METAS_NAO_ALCANCADAS",
+      "QTDE_INDICADORES",
+      "QTDE_AUSENCIA_CASOS",
+      "PERCENTUAL"
+    ],
+    "years": [
+      2016
+    ],
+    "ufs": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "municipalities": 5570,
+    "duplicates": 0,
+    "missing": {
+      "ANO": 0,
+      "UF": 0,
+      "COD_MUN": 0,
+      "NOME_MUN": 0,
+      "POP_ANO": 41,
+      "IND_01_NUM": 0,
+      "IND_01_DEN": 0,
+      "IND_01_RES": 0,
+      "IND_01_META": 0,
+      "IND_01_ALCANCE_META": 0,
+      "IND_02_NUM": 0,
+      "IND_02_DEN": 0,
+      "IND_02_RES": 0,
+      "IND_02_META": 0,
+      "IND_02_ALCANCE_META": 0,
+      "IND_03_NUM": 0,
+      "IND_03_DEN": 0,
+      "IND_03_RES": 0,
+      "IND_03_META": 0,
+      "IND_03_ALCANCE_META": 0,
+      "IND_04_NUM": 0,
+      "IND_04_DEN": 0,
+      "IND_04_RES": 0,
+      "IND_04_META": 0,
+      "IND_04_ALCANCE_META": 0,
+      "IND_05_NUM": 0,
+      "IND_05_DEN": 0,
+      "IND_05_RES": 0,
+      "IND_05_META": 0,
+      "IND_05_ALCANCE_META": 0,
+      "IND_06_NUM": 5570,
+      "IND_06_DEN": 5570,
+      "IND_06_RES": 0,
+      "IND_06_META": 0,
+      "IND_06_ALCANCE_META": 0,
+      "IND_07_NUM": 0,
+      "IND_07_DEN": 0,
+      "IND_07_RES": 0,
+      "IND_07_META": 0,
+      "IND_07_ALCANCE_META": 0,
+      "IND_08_NUM": 0,
+      "IND_08_DEN": 0,
+      "IND_08_RES": 0,
+      "IND_08_META": 0,
+      "IND_08_ALCANCE_META": 0,
+      "IND_09_NUM": 5570,
+      "IND_09_DEN": 5570,
+      "IND_09_RES": 0,
+      "IND_09_META": 0,
+      "IND_09_ALCANCE_META": 0,
+      "IND_10_NUM": 0,
+      "IND_10_DEN": 0,
+      "IND_10_RES": 0,
+      "IND_10_META": 0,
+      "IND_10_ALCANCE_META": 0,
+      "IND_11_NUM": 0,
+      "IND_11_DEN": 0,
+      "IND_11_RES": 0,
+      "IND_11_META": 0,
+      "IND_11_ALCANCE_META": 0,
+      "IND_12_NUM": 0,
+      "IND_12_DEN": 0,
+      "IND_12_RES": 0,
+      "IND_12_META": 0,
+      "IND_12_ALCANCE_META": 0,
+      "IND_13_NUM": 0,
+      "IND_13_DEN": 0,
+      "IND_13_RES": 0,
+      "IND_13_META": 0,
+      "IND_13_ALCANCE_META": 0,
+      "IND_14_NUM": 0,
+      "IND_14_DEN": 0,
+      "IND_14_RES": 0,
+      "IND_14_META": 0,
+      "IND_14_ALCANCE_META": 0,
+      "IND_15_NUM": 0,
+      "IND_15_DEN": 0,
+      "IND_15_RES": 0,
+      "IND_15_META": 0,
+      "IND_15_ALCANCE_META": 0,
+      "VL_PQA_VS": 41,
+      "METAS_ALCANCADAS": 41,
+      "METAS_NAO_ALCANCADAS": 41,
+      "QTDE_INDICADORES": 0,
+      "QTDE_AUSENCIA_CASOS": 0,
+      "PERCENTUAL": 41
+    },
+    "status": {
+      "IND_01_META": {
+        "Sim": 3269,
+        "Não": 2301
+      },
+      "IND_01_ALCANCE_META": {
+        "1": 3269,
+        "0": 2301
+      },
+      "IND_02_META": {
+        "Sim": 2840,
+        "Não": 2730
+      },
+      "IND_02_ALCANCE_META": {
+        "1": 2840,
+        "0": 2730
+      },
+      "IND_03_META": {
+        "Não": 3038,
+        "Sim": 2532
+      },
+      "IND_03_ALCANCE_META": {
+        "0": 3038,
+        "1": 2532
+      },
+      "IND_04_META": {
+        "Não": 3541,
+        "Sim": 2029
+      },
+      "IND_04_ALCANCE_META": {
+        "0": 3541,
+        "1": 2029
+      },
+      "IND_05_META": {
+        "Não": 4262,
+        "Sim": 1308
+      },
+      "IND_05_ALCANCE_META": {
+        "0": 4262,
+        "1": 1308
+      },
+      "IND_06_META": {
+        "Sim": 4430,
+        "Não": 1140
+      },
+      "IND_06_ALCANCE_META": {
+        "1": 4430,
+        "0": 1140
+      },
+      "IND_07_META": {
+        "Não": 3573,
+        "Sim": 1997
+      },
+      "IND_07_ALCANCE_META": {
+        "0": 3573,
+        "1": 1997
+      },
+      "IND_08_META": {
+        "Não": 5434,
+        "Sim": 136
+      },
+      "IND_08_ALCANCE_META": {
+        "0": 5434,
+        "1": 136
+      },
+      "IND_09_META": {
+        "Sim": 3896,
+        "Não": 1674
+      },
+      "IND_09_ALCANCE_META": {
+        "1": 3896,
+        "0": 1674
+      },
+      "IND_10_META": {
+        "Não": 3496,
+        "Sim": 2074
+      },
+      "IND_10_ALCANCE_META": {
+        "0": 3496,
+        "1": 2074
+      },
+      "IND_11_META": {
+        "Não": 3861,
+        "Sim": 1709
+      },
+      "IND_11_ALCANCE_META": {
+        "0": 3861,
+        "1": 1709
+      },
+      "IND_12_META": {
+        "Não": 4516,
+        "Sim": 1054
+      },
+      "IND_12_ALCANCE_META": {
+        "0": 4516,
+        "1": 1054
+      },
+      "IND_13_META": {
+        "Não": 5570
+      },
+      "IND_13_ALCANCE_META": {
+        "0": 5570
+      },
+      "IND_14_META": {
+        "Sim": 3554,
+        "Não": 2016
+      },
+      "IND_14_ALCANCE_META": {
+        "1": 3554,
+        "0": 2016
+      },
+      "IND_15_META": {
+        "Sim": 2883,
+        "Não": 2687
+      },
+      "IND_15_ALCANCE_META": {
+        "1": 2883,
+        "0": 2687
+      }
+    },
+    "zero_denominators": {
+      "IND_01_DEN": 0,
+      "IND_02_DEN": 0,
+      "IND_03_DEN": 5,
+      "IND_04_DEN": 0,
+      "IND_05_DEN": 0,
+      "IND_06_DEN": 0,
+      "IND_07_DEN": 2060,
+      "IND_08_DEN": 5084,
+      "IND_09_DEN": 0,
+      "IND_10_DEN": 2661,
+      "IND_11_DEN": 2507,
+      "IND_12_DEN": 6,
+      "IND_13_DEN": 558,
+      "IND_14_DEN": 1312,
+      "IND_15_DEN": 1930
+    }
+  },
+  "PQA_VS_2017": {
+    "rows": 5570,
+    "columns": [
+      "ANO",
+      "UF",
+      "COD_MUN",
+      "NOME_MUN",
+      "POP_ANO",
+      "IND_01_NUM",
+      "IND_01_DEN",
+      "IND_01_RES",
+      "IND_01_META",
+      "IND_01_ALCANCE_META",
+      "IND_02_NUM",
+      "IND_02_DEN",
+      "IND_02_RES",
+      "IND_02_META",
+      "IND_02_ALCANCE_META",
+      "IND_03_NUM",
+      "IND_03_DEN",
+      "IND_03_RES",
+      "IND_03_META",
+      "IND_03_ALCANCE_META",
+      "IND_04_NUM",
+      "IND_04_DEN",
+      "IND_04_RES",
+      "IND_04_META",
+      "IND_04_ALCANCE_META",
+      "IND_05_NUM",
+      "IND_05_DEN",
+      "IND_05_RES",
+      "IND_05_META",
+      "IND_05_ALCANCE_META",
+      "IND_06_NUM",
+      "IND_06_DEN",
+      "IND_06_RES",
+      "IND_06_META",
+      "IND_06_ALCANCE_META",
+      "IND_07_NUM",
+      "IND_07_DEN",
+      "IND_07_RES",
+      "IND_07_META",
+      "IND_07_ALCANCE_META",
+      "IND_08_NUM",
+      "IND_08_DEN",
+      "IND_08_RES",
+      "IND_08_META",
+      "IND_08_ALCANCE_META",
+      "IND_09_NUM",
+      "IND_09_DEN",
+      "IND_09_RES",
+      "IND_09_META",
+      "IND_09_ALCANCE_META",
+      "IND_10_NUM",
+      "IND_10_DEN",
+      "IND_10_RES",
+      "IND_10_META",
+      "IND_10_ALCANCE_META",
+      "IND_11_NUM",
+      "IND_11_DEN",
+      "IND_11_RES",
+      "IND_11_META",
+      "IND_11_ALCANCE_META",
+      "IND_12_NUM",
+      "IND_12_DEN",
+      "IND_12_RES",
+      "IND_12_META",
+      "IND_12_ALCANCE_META",
+      "IND_13_NUM",
+      "IND_13_DEN",
+      "IND_13_RES",
+      "IND_13_META",
+      "IND_13_ALCANCE_META",
+      "IND_14_NUM",
+      "IND_14_DEN",
+      "IND_14_RES",
+      "IND_14_META",
+      "IND_14_ALCANCE_META",
+      "IND_15_NUM",
+      "IND_15_DEN",
+      "IND_15_RES",
+      "IND_15_META",
+      "IND_15_ALCANCE_META",
+      "VL_PQA_VS",
+      "METAS_ALCANCADAS",
+      "METAS_NAO_ALCANCADAS",
+      "QTDE_INDICADORES",
+      "QTDE_AUSENCIA_CASOS",
+      "PERCENTUAL"
+    ],
+    "years": [
+      2017
+    ],
+    "ufs": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "municipalities": 5570,
+    "duplicates": 0,
+    "missing": {
+      "ANO": 0,
+      "UF": 0,
+      "COD_MUN": 0,
+      "NOME_MUN": 0,
+      "POP_ANO": 0,
+      "IND_01_NUM": 0,
+      "IND_01_DEN": 0,
+      "IND_01_RES": 0,
+      "IND_01_META": 0,
+      "IND_01_ALCANCE_META": 0,
+      "IND_02_NUM": 0,
+      "IND_02_DEN": 0,
+      "IND_02_RES": 0,
+      "IND_02_META": 0,
+      "IND_02_ALCANCE_META": 0,
+      "IND_03_NUM": 0,
+      "IND_03_DEN": 0,
+      "IND_03_RES": 0,
+      "IND_03_META": 0,
+      "IND_03_ALCANCE_META": 0,
+      "IND_04_NUM": 0,
+      "IND_04_DEN": 0,
+      "IND_04_RES": 0,
+      "IND_04_META": 0,
+      "IND_04_ALCANCE_META": 0,
+      "IND_05_NUM": 0,
+      "IND_05_DEN": 0,
+      "IND_05_RES": 0,
+      "IND_05_META": 0,
+      "IND_05_ALCANCE_META": 0,
+      "IND_06_NUM": 5570,
+      "IND_06_DEN": 5570,
+      "IND_06_RES": 0,
+      "IND_06_META": 0,
+      "IND_06_ALCANCE_META": 0,
+      "IND_07_NUM": 3352,
+      "IND_07_DEN": 3352,
+      "IND_07_RES": 3352,
+      "IND_07_META": 0,
+      "IND_07_ALCANCE_META": 0,
+      "IND_08_NUM": 0,
+      "IND_08_DEN": 0,
+      "IND_08_RES": 0,
+      "IND_08_META": 0,
+      "IND_08_ALCANCE_META": 0,
+      "IND_09_NUM": 5570,
+      "IND_09_DEN": 5570,
+      "IND_09_RES": 0,
+      "IND_09_META": 0,
+      "IND_09_ALCANCE_META": 0,
+      "IND_10_NUM": 2633,
+      "IND_10_DEN": 2633,
+      "IND_10_RES": 2633,
+      "IND_10_META": 0,
+      "IND_10_ALCANCE_META": 0,
+      "IND_11_NUM": 0,
+      "IND_11_DEN": 0,
+      "IND_11_RES": 0,
+      "IND_11_META": 0,
+      "IND_11_ALCANCE_META": 0,
+      "IND_12_NUM": 0,
+      "IND_12_DEN": 0,
+      "IND_12_RES": 0,
+      "IND_12_META": 0,
+      "IND_12_ALCANCE_META": 0,
+      "IND_13_NUM": 0,
+      "IND_13_DEN": 0,
+      "IND_13_RES": 0,
+      "IND_13_META": 0,
+      "IND_13_ALCANCE_META": 0,
+      "IND_14_NUM": 0,
+      "IND_14_DEN": 0,
+      "IND_14_RES": 0,
+      "IND_14_META": 0,
+      "IND_14_ALCANCE_META": 0,
+      "IND_15_NUM": 0,
+      "IND_15_DEN": 0,
+      "IND_15_RES": 0,
+      "IND_15_META": 0,
+      "IND_15_ALCANCE_META": 0,
+      "VL_PQA_VS": 23,
+      "METAS_ALCANCADAS": 23,
+      "METAS_NAO_ALCANCADAS": 23,
+      "QTDE_INDICADORES": 0,
+      "QTDE_AUSENCIA_CASOS": 0,
+      "PERCENTUAL": 23
+    },
+    "status": {
+      "IND_01_META": {
+        "Sim": 3331,
+        "Não": 2239
+      },
+      "IND_01_ALCANCE_META": {
+        "1": 3331,
+        "0": 2239
+      },
+      "IND_02_META": {
+        "Sim": 3192,
+        "Não": 2378
+      },
+      "IND_02_ALCANCE_META": {
+        "1": 3192,
+        "0": 2378
+      },
+      "IND_03_META": {
+        "Sim": 3938,
+        "Não": 1632
+      },
+      "IND_03_ALCANCE_META": {
+        "1": 3938,
+        "0": 1632
+      },
+      "IND_04_META": {
+        "Não": 4131,
+        "Sim": 1439
+      },
+      "IND_04_ALCANCE_META": {
+        "0": 4131,
+        "1": 1439
+      },
+      "IND_05_META": {
+        "Não": 3978,
+        "Sim": 1592
+      },
+      "IND_05_ALCANCE_META": {
+        "0": 3978,
+        "1": 1592
+      },
+      "IND_06_META": {
+        "Sim": 4653,
+        "Não": 917
+      },
+      "IND_06_ALCANCE_META": {
+        "1": 4653,
+        "0": 917
+      },
+      "IND_07_META": {
+        "Não": 4287,
+        "Sim": 1283
+      },
+      "IND_07_ALCANCE_META": {
+        "0": 4287,
+        "1": 1283
+      },
+      "IND_08_META": {
+        "Não": 5407,
+        "Sim": 163
+      },
+      "IND_08_ALCANCE_META": {
+        "0": 5407,
+        "1": 163
+      },
+      "IND_09_META": {
+        "Sim": 3939,
+        "Não": 1631
+      },
+      "IND_09_ALCANCE_META": {
+        "1": 3939,
+        "0": 1631
+      },
+      "IND_10_META": {
+        "Não": 3518,
+        "Sim": 2052
+      },
+      "IND_10_ALCANCE_META": {
+        "0": 3518,
+        "1": 2052
+      },
+      "IND_11_META": {
+        "Não": 3640,
+        "Sim": 1930
+      },
+      "IND_11_ALCANCE_META": {
+        "0": 3640,
+        "1": 1930
+      },
+      "IND_12_META": {
+        "Não": 4417,
+        "Sim": 1153
+      },
+      "IND_12_ALCANCE_META": {
+        "0": 4417,
+        "1": 1153
+      },
+      "IND_13_META": {
+        "Sim": 2925,
+        "Não": 2645
+      },
+      "IND_13_ALCANCE_META": {
+        "1": 2925,
+        "0": 2645
+      },
+      "IND_14_META": {
+        "Sim": 3966,
+        "Não": 1604
+      },
+      "IND_14_ALCANCE_META": {
+        "1": 3966,
+        "0": 1604
+      },
+      "IND_15_META": {
+        "Sim": 3511,
+        "Não": 2059
+      },
+      "IND_15_ALCANCE_META": {
+        "1": 3511,
+        "0": 2059
+      }
+    },
+    "zero_denominators": {
+      "IND_01_DEN": 0,
+      "IND_02_DEN": 0,
+      "IND_03_DEN": 5,
+      "IND_04_DEN": 0,
+      "IND_05_DEN": 0,
+      "IND_06_DEN": 0,
+      "IND_07_DEN": 0,
+      "IND_08_DEN": 5030,
+      "IND_09_DEN": 0,
+      "IND_10_DEN": 113,
+      "IND_11_DEN": 2402,
+      "IND_12_DEN": 2,
+      "IND_13_DEN": 387,
+      "IND_14_DEN": 895,
+      "IND_15_DEN": 1432
+    }
+  },
+  "PQA_VS_2018": {
+    "rows": 5570,
+    "columns": [
+      "ANO",
+      "UF",
+      "COD_MUN",
+      "NOME_MUN",
+      "POP_ANO",
+      "IND_01_NUM",
+      "IND_01_DEN",
+      "IND_01_RES",
+      "IND_01_META",
+      "IND_01_ALCANCE_META",
+      "IND_02_NUM",
+      "IND_02_DEN",
+      "IND_02_RES",
+      "IND_02_META",
+      "IND_02_ALCANCE_META",
+      "IND_03_NUM",
+      "IND_03_DEN",
+      "IND_03_RES",
+      "IND_03_META",
+      "IND_03_ALCANCE_META",
+      "IND_04_NUM",
+      "IND_04_DEN",
+      "IND_04_RES",
+      "IND_04_META",
+      "IND_04_ALCANCE_META",
+      "IND_05_NUM",
+      "IND_05_DEN",
+      "IND_05_RES",
+      "IND_05_META",
+      "IND_05_ALCANCE_META",
+      "IND_06_NUM",
+      "IND_06_DEN",
+      "IND_06_RES",
+      "IND_06_META",
+      "IND_06_ALCANCE_META",
+      "IND_07_NUM",
+      "IND_07_DEN",
+      "IND_07_RES",
+      "IND_07_META",
+      "IND_07_ALCANCE_META",
+      "IND_08_NUM",
+      "IND_08_DEN",
+      "IND_08_RES",
+      "IND_08_META",
+      "IND_08_ALCANCE_META",
+      "IND_09_NUM",
+      "IND_09_DEN",
+      "IND_09_RES",
+      "IND_09_META",
+      "IND_09_ALCANCE_META",
+      "IND_10_NUM",
+      "IND_10_DEN",
+      "IND_10_RES",
+      "IND_10_META",
+      "IND_10_ALCANCE_META",
+      "IND_11_NUM",
+      "IND_11_DEN",
+      "IND_11_RES",
+      "IND_11_META",
+      "IND_11_ALCANCE_META",
+      "IND_12_NUM",
+      "IND_12_DEN",
+      "IND_12_RES",
+      "IND_12_META",
+      "IND_12_ALCANCE_META",
+      "IND_13_NUM",
+      "IND_13_DEN",
+      "IND_13_RES",
+      "IND_13_META",
+      "IND_13_ALCANCE_META",
+      "IND_14_NUM",
+      "IND_14_DEN",
+      "IND_14_RES",
+      "IND_14_META",
+      "IND_14_ALCANCE_META",
+      "IND_15_NUM",
+      "IND_15_DEN",
+      "IND_15_RES",
+      "IND_15_META",
+      "IND_15_ALCANCE_META",
+      "VL_PQA_VS",
+      "METAS_ALCANCADAS",
+      "METAS_NAO_ALCANCADAS",
+      "QTDE_INDICADORES",
+      "QTDE_AUSENCIA_CASOS",
+      "PERCENTUAL"
+    ],
+    "years": [
+      2018
+    ],
+    "ufs": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "municipalities": 5570,
+    "duplicates": 0,
+    "missing": {
+      "ANO": 0,
+      "UF": 0,
+      "COD_MUN": 0,
+      "NOME_MUN": 0,
+      "POP_ANO": 0,
+      "IND_01_NUM": 0,
+      "IND_01_DEN": 0,
+      "IND_01_RES": 0,
+      "IND_01_META": 0,
+      "IND_01_ALCANCE_META": 0,
+      "IND_02_NUM": 0,
+      "IND_02_DEN": 0,
+      "IND_02_RES": 0,
+      "IND_02_META": 0,
+      "IND_02_ALCANCE_META": 0,
+      "IND_03_NUM": 0,
+      "IND_03_DEN": 0,
+      "IND_03_RES": 0,
+      "IND_03_META": 0,
+      "IND_03_ALCANCE_META": 0,
+      "IND_04_NUM": 0,
+      "IND_04_DEN": 0,
+      "IND_04_RES": 0,
+      "IND_04_META": 0,
+      "IND_04_ALCANCE_META": 0,
+      "IND_05_NUM": 0,
+      "IND_05_DEN": 0,
+      "IND_05_RES": 0,
+      "IND_05_META": 0,
+      "IND_05_ALCANCE_META": 0,
+      "IND_06_NUM": 0,
+      "IND_06_DEN": 0,
+      "IND_06_RES": 0,
+      "IND_06_META": 0,
+      "IND_06_ALCANCE_META": 0,
+      "IND_07_NUM": 0,
+      "IND_07_DEN": 0,
+      "IND_07_RES": 0,
+      "IND_07_META": 0,
+      "IND_07_ALCANCE_META": 0,
+      "IND_08_NUM": 5570,
+      "IND_08_DEN": 5570,
+      "IND_08_RES": 0,
+      "IND_08_META": 0,
+      "IND_08_ALCANCE_META": 0,
+      "IND_09_NUM": 0,
+      "IND_09_DEN": 0,
+      "IND_09_RES": 0,
+      "IND_09_META": 0,
+      "IND_09_ALCANCE_META": 0,
+      "IND_10_NUM": 0,
+      "IND_10_DEN": 0,
+      "IND_10_RES": 0,
+      "IND_10_META": 0,
+      "IND_10_ALCANCE_META": 0,
+      "IND_11_NUM": 0,
+      "IND_11_DEN": 0,
+      "IND_11_RES": 0,
+      "IND_11_META": 0,
+      "IND_11_ALCANCE_META": 0,
+      "IND_12_NUM": 0,
+      "IND_12_DEN": 0,
+      "IND_12_RES": 0,
+      "IND_12_META": 0,
+      "IND_12_ALCANCE_META": 0,
+      "IND_13_NUM": 0,
+      "IND_13_DEN": 0,
+      "IND_13_RES": 0,
+      "IND_13_META": 0,
+      "IND_13_ALCANCE_META": 0,
+      "IND_14_NUM": 0,
+      "IND_14_DEN": 0,
+      "IND_14_RES": 0,
+      "IND_14_META": 0,
+      "IND_14_ALCANCE_META": 0,
+      "IND_15_NUM": 5570,
+      "IND_15_DEN": 5570,
+      "IND_15_RES": 5570,
+      "IND_15_META": 0,
+      "IND_15_ALCANCE_META": 5570,
+      "VL_PQA_VS": 9,
+      "METAS_ALCANCADAS": 9,
+      "METAS_NAO_ALCANCADAS": 9,
+      "QTDE_INDICADORES": 0,
+      "QTDE_AUSENCIA_CASOS": 0,
+      "PERCENTUAL": 9
+    },
+    "status": {
+      "IND_01_META": {
+        "Sim": 3238,
+        "Não": 2332
+      },
+      "IND_01_ALCANCE_META": {
+        "1": 3238,
+        "0": 2332
+      },
+      "IND_02_META": {
+        "Sim": 3959,
+        "Não": 1611
+      },
+      "IND_02_ALCANCE_META": {
+        "1": 3959,
+        "0": 1611
+      },
+      "IND_03_META": {
+        "Sim": 4151,
+        "Não": 1419
+      },
+      "IND_03_ALCANCE_META": {
+        "1": 4151,
+        "0": 1419
+      },
+      "IND_04_META": {
+        "Não": 3432,
+        "Sim": 2138
+      },
+      "IND_04_ALCANCE_META": {
+        "0": 3432,
+        "1": 2138
+      },
+      "IND_05_META": {
+        "Não": 3666,
+        "Sim": 1904
+      },
+      "IND_05_ALCANCE_META": {
+        "0": 3666,
+        "1": 1904
+      },
+      "IND_06_META": {
+        "Não": 4059,
+        "Sim": 1511
+      },
+      "IND_06_ALCANCE_META": {
+        "0": 4059,
+        "1": 1511
+      },
+      "IND_07_META": {
+        "Não": 5447,
+        "Sim": 123
+      },
+      "IND_07_ALCANCE_META": {
+        "0": 5447,
+        "1": 123
+      },
+      "IND_08_META": {
+        "Sim": 3536,
+        "Não": 2034
+      },
+      "IND_08_ALCANCE_META": {
+        "1": 3536,
+        "0": 2034
+      },
+      "IND_09_META": {
+        "Não": 3706,
+        "Sim": 1864
+      },
+      "IND_09_ALCANCE_META": {
+        "0": 3706,
+        "1": 1864
+      },
+      "IND_10_META": {
+        "Não": 3519,
+        "Sim": 2051
+      },
+      "IND_10_ALCANCE_META": {
+        "0": 3519,
+        "1": 2051
+      },
+      "IND_11_META": {
+        "Não": 4352,
+        "Sim": 1218
+      },
+      "IND_11_ALCANCE_META": {
+        "0": 4352,
+        "1": 1218
+      },
+      "IND_12_META": {
+        "Sim": 4780,
+        "Não": 790
+      },
+      "IND_12_ALCANCE_META": {
+        "1": 4780,
+        "0": 790
+      },
+      "IND_13_META": {
+        "Sim": 4172,
+        "Não": 1398
+      },
+      "IND_13_ALCANCE_META": {
+        "1": 4172,
+        "0": 1398
+      },
+      "IND_14_META": {
+        "Sim": 3826,
+        "Não": 1744
+      },
+      "IND_14_ALCANCE_META": {
+        "1": 3826,
+        "0": 1744
+      },
+      "IND_15_META": {
+        "0": 5570
+      },
+      "IND_15_ALCANCE_META": {
+        "nan": 5570
+      }
+    },
+    "zero_denominators": {
+      "IND_01_DEN": 0,
+      "IND_02_DEN": 0,
+      "IND_03_DEN": 21,
+      "IND_04_DEN": 0,
+      "IND_05_DEN": 0,
+      "IND_06_DEN": 2857,
+      "IND_07_DEN": 5161,
+      "IND_08_DEN": 0,
+      "IND_09_DEN": 2920,
+      "IND_10_DEN": 2353,
+      "IND_11_DEN": 1,
+      "IND_12_DEN": 127,
+      "IND_13_DEN": 740,
+      "IND_14_DEN": 1193,
+      "IND_15_DEN": 0
+    }
+  },
+  "PQA_VS_2019": {
+    "rows": 5561,
+    "columns": [
+      "ANO",
+      "UF",
+      "COD_MUN",
+      "NOME_MUN",
+      "POP_ANO",
+      "IND_01_NUM",
+      "IND_01_DEN",
+      "IND_01_RES",
+      "IND_01_META",
+      "IND_01_ALCANCE_META",
+      "IND_02_NUM",
+      "IND_02_DEN",
+      "IND_02_RES",
+      "IND_02_META",
+      "IND_02_ALCANCE_META",
+      "IND_03_NUM",
+      "IND_03_DEN",
+      "IND_03_RES",
+      "IND_03_META",
+      "IND_03_ALCANCE_META",
+      "IND_04_NUM",
+      "IND_04_DEN",
+      "IND_04_RES",
+      "IND_04_META",
+      "IND_04_ALCANCE_META",
+      "IND_05_NUM",
+      "IND_05_DEN",
+      "IND_05_RES",
+      "IND_05_META",
+      "IND_05_ALCANCE_META",
+      "IND_06_NUM",
+      "IND_06_DEN",
+      "IND_06_RES",
+      "IND_06_META",
+      "IND_06_ALCANCE_META",
+      "IND_07_NUM",
+      "IND_07_DEN",
+      "IND_07_RES",
+      "IND_07_META",
+      "IND_07_ALCANCE_META",
+      "IND_08_NUM",
+      "IND_08_DEN",
+      "IND_08_RES",
+      "IND_08_META",
+      "IND_08_ALCANCE_META",
+      "IND_09_NUM",
+      "IND_09_DEN",
+      "IND_09_RES",
+      "IND_09_META",
+      "IND_09_ALCANCE_META",
+      "IND_10_NUM",
+      "IND_10_DEN",
+      "IND_10_RES",
+      "IND_10_META",
+      "IND_10_ALCANCE_META",
+      "IND_11_NUM",
+      "IND_11_DEN",
+      "IND_11_RES",
+      "IND_11_META",
+      "IND_11_ALCANCE_META",
+      "IND_12_NUM",
+      "IND_12_DEN",
+      "IND_12_RES",
+      "IND_12_META",
+      "IND_12_ALCANCE_META",
+      "IND_13_NUM",
+      "IND_13_DEN",
+      "IND_13_RES",
+      "IND_13_META",
+      "IND_13_ALCANCE_META",
+      "IND_14_NUM",
+      "IND_14_DEN",
+      "IND_14_RES",
+      "IND_14_META",
+      "IND_14_ALCANCE_META",
+      "IND_15_NUM",
+      "IND_15_DEN",
+      "IND_15_RES",
+      "IND_15_META",
+      "IND_15_ALCANCE_META",
+      "VL_PQA_VS",
+      "METAS_ALCANCADAS",
+      "METAS_NAO_ALCANCADAS",
+      "QTDE_INDICADORES",
+      "QTDE_AUSENCIA_CASOS",
+      "PERCENTUAL"
+    ],
+    "years": [
+      2019
+    ],
+    "ufs": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "municipalities": 5561,
+    "duplicates": 0,
+    "missing": {
+      "ANO": 0,
+      "UF": 0,
+      "COD_MUN": 0,
+      "NOME_MUN": 0,
+      "POP_ANO": 0,
+      "IND_01_NUM": 0,
+      "IND_01_DEN": 0,
+      "IND_01_RES": 0,
+      "IND_01_META": 0,
+      "IND_01_ALCANCE_META": 0,
+      "IND_02_NUM": 0,
+      "IND_02_DEN": 0,
+      "IND_02_RES": 0,
+      "IND_02_META": 0,
+      "IND_02_ALCANCE_META": 0,
+      "IND_03_NUM": 0,
+      "IND_03_DEN": 0,
+      "IND_03_RES": 0,
+      "IND_03_META": 0,
+      "IND_03_ALCANCE_META": 0,
+      "IND_04_NUM": 0,
+      "IND_04_DEN": 0,
+      "IND_04_RES": 0,
+      "IND_04_META": 0,
+      "IND_04_ALCANCE_META": 0,
+      "IND_05_NUM": 0,
+      "IND_05_DEN": 0,
+      "IND_05_RES": 0,
+      "IND_05_META": 0,
+      "IND_05_ALCANCE_META": 0,
+      "IND_06_NUM": 0,
+      "IND_06_DEN": 0,
+      "IND_06_RES": 0,
+      "IND_06_META": 0,
+      "IND_06_ALCANCE_META": 0,
+      "IND_07_NUM": 0,
+      "IND_07_DEN": 0,
+      "IND_07_RES": 0,
+      "IND_07_META": 0,
+      "IND_07_ALCANCE_META": 0,
+      "IND_08_NUM": 5561,
+      "IND_08_DEN": 5561,
+      "IND_08_RES": 0,
+      "IND_08_META": 0,
+      "IND_08_ALCANCE_META": 0,
+      "IND_09_NUM": 2769,
+      "IND_09_DEN": 2769,
+      "IND_09_RES": 2769,
+      "IND_09_META": 0,
+      "IND_09_ALCANCE_META": 0,
+      "IND_10_NUM": 0,
+      "IND_10_DEN": 0,
+      "IND_10_RES": 0,
+      "IND_10_META": 0,
+      "IND_10_ALCANCE_META": 0,
+      "IND_11_NUM": 0,
+      "IND_11_DEN": 0,
+      "IND_11_RES": 0,
+      "IND_11_META": 0,
+      "IND_11_ALCANCE_META": 0,
+      "IND_12_NUM": 0,
+      "IND_12_DEN": 0,
+      "IND_12_RES": 0,
+      "IND_12_META": 0,
+      "IND_12_ALCANCE_META": 0,
+      "IND_13_NUM": 0,
+      "IND_13_DEN": 0,
+      "IND_13_RES": 0,
+      "IND_13_META": 0,
+      "IND_13_ALCANCE_META": 0,
+      "IND_14_NUM": 0,
+      "IND_14_DEN": 0,
+      "IND_14_RES": 0,
+      "IND_14_META": 0,
+      "IND_14_ALCANCE_META": 0,
+      "IND_15_NUM": 5561,
+      "IND_15_DEN": 5561,
+      "IND_15_RES": 5561,
+      "IND_15_META": 0,
+      "IND_15_ALCANCE_META": 5561,
+      "VL_PQA_VS": 0,
+      "METAS_ALCANCADAS": 0,
+      "METAS_NAO_ALCANCADAS": 0,
+      "QTDE_INDICADORES": 0,
+      "QTDE_AUSENCIA_CASOS": 0,
+      "PERCENTUAL": 0
+    },
+    "status": {
+      "IND_01_META": {
+        "Sim": 3502,
+        "Não": 2059
+      },
+      "IND_01_ALCANCE_META": {
+        "1": 3502,
+        "0": 2059
+      },
+      "IND_02_META": {
+        "Sim": 3618,
+        "Não": 1943
+      },
+      "IND_02_ALCANCE_META": {
+        "1": 3618,
+        "0": 1943
+      },
+      "IND_03_META": {
+        "Sim": 3430,
+        "Não": 2131
+      },
+      "IND_03_ALCANCE_META": {
+        "1": 3430,
+        "0": 2131
+      },
+      "IND_04_META": {
+        "Não": 3786,
+        "Sim": 1775
+      },
+      "IND_04_ALCANCE_META": {
+        "0": 3786,
+        "1": 1775
+      },
+      "IND_05_META": {
+        "Não": 3526,
+        "Sim": 2035
+      },
+      "IND_05_ALCANCE_META": {
+        "0": 3526,
+        "1": 2035
+      },
+      "IND_06_META": {
+        "Não": 3931,
+        "Sim": 1630
+      },
+      "IND_06_ALCANCE_META": {
+        "0": 3931,
+        "1": 1630
+      },
+      "IND_07_META": {
+        "Não": 5393,
+        "Sim": 168
+      },
+      "IND_07_ALCANCE_META": {
+        "0": 5393,
+        "1": 168
+      },
+      "IND_08_META": {
+        "Sim": 4095,
+        "Não": 1466
+      },
+      "IND_08_ALCANCE_META": {
+        "1": 4095,
+        "0": 1466
+      },
+      "IND_09_META": {
+        "Não": 3593,
+        "Sim": 1968
+      },
+      "IND_09_ALCANCE_META": {
+        "0": 3593,
+        "1": 1968
+      },
+      "IND_10_META": {
+        "Não": 3584,
+        "Sim": 1977
+      },
+      "IND_10_ALCANCE_META": {
+        "0": 3584,
+        "1": 1977
+      },
+      "IND_11_META": {
+        "Não": 4234,
+        "Sim": 1327
+      },
+      "IND_11_ALCANCE_META": {
+        "0": 4234,
+        "1": 1327
+      },
+      "IND_12_META": {
+        "Sim": 4028,
+        "Não": 1533
+      },
+      "IND_12_ALCANCE_META": {
+        "1": 4028,
+        "0": 1533
+      },
+      "IND_13_META": {
+        "Sim": 3794,
+        "Não": 1767
+      },
+      "IND_13_ALCANCE_META": {
+        "1": 3794,
+        "0": 1767
+      },
+      "IND_14_META": {
+        "Sim": 3949,
+        "Não": 1612
+      },
+      "IND_14_ALCANCE_META": {
+        "1": 3949,
+        "0": 1612
+      },
+      "IND_15_META": {
+        "0": 5561
+      },
+      "IND_15_ALCANCE_META": {
+        "nan": 5561
+      }
+    },
+    "zero_denominators": {
+      "IND_01_DEN": 0,
+      "IND_02_DEN": 0,
+      "IND_03_DEN": 104,
+      "IND_04_DEN": 0,
+      "IND_05_DEN": 0,
+      "IND_06_DEN": 2471,
+      "IND_07_DEN": 5029,
+      "IND_08_DEN": 0,
+      "IND_09_DEN": 136,
+      "IND_10_DEN": 2430,
+      "IND_11_DEN": 2,
+      "IND_12_DEN": 53,
+      "IND_13_DEN": 1161,
+      "IND_14_DEN": 977,
+      "IND_15_DEN": 0
+    }
+  },
+  "PQA_VS_2020": {
+    "rows": 5570,
+    "columns": [
+      "ANO",
+      "UF",
+      "COD_MUN",
+      "NOME_MUN",
+      "POP_ANO",
+      "IND_01_NUM",
+      "IND_01_DEN",
+      "IND_01_RES",
+      "IND_01_META",
+      "IND_01_ALCANCE_META",
+      "IND_02_NUM",
+      "IND_02_DEN",
+      "IND_02_RES",
+      "IND_02_META",
+      "IND_02_ALCANCE_META",
+      "IND_03_NUM",
+      "IND_03_DEN",
+      "IND_03_RES",
+      "IND_03_META",
+      "IND_03_ALCANCE_META",
+      "IND_04_NUM",
+      "IND_04_DEN",
+      "IND_04_RES",
+      "IND_04_META",
+      "IND_04_ALCANCE_META",
+      "IND_05_NUM",
+      "IND_05_DEN",
+      "IND_05_RES",
+      "IND_05_META",
+      "IND_05_ALCANCE_META",
+      "IND_06_NUM",
+      "IND_06_DEN",
+      "IND_06_RES",
+      "IND_06_META",
+      "IND_06_ALCANCE_META",
+      "IND_07_NUM",
+      "IND_07_DEN",
+      "IND_07_RES",
+      "IND_07_META",
+      "IND_07_ALCANCE_META",
+      "IND_08_NUM",
+      "IND_08_DEN",
+      "IND_08_RES",
+      "IND_08_META",
+      "IND_08_ALCANCE_META",
+      "IND_09_NUM",
+      "IND_09_DEN",
+      "IND_09_RES",
+      "IND_09_META",
+      "IND_09_ALCANCE_META",
+      "IND_10_NUM",
+      "IND_10_DEN",
+      "IND_10_RES",
+      "IND_10_META",
+      "IND_10_ALCANCE_META",
+      "IND_11_NUM",
+      "IND_11_DEN",
+      "IND_11_RES",
+      "IND_11_META",
+      "IND_11_ALCANCE_META",
+      "IND_12_NUM",
+      "IND_12_DEN",
+      "IND_12_RES",
+      "IND_12_META",
+      "IND_12_ALCANCE_META",
+      "IND_13_NUM",
+      "IND_13_DEN",
+      "IND_13_RES",
+      "IND_13_META",
+      "IND_13_ALCANCE_META",
+      "IND_14_NUM",
+      "IND_14_DEN",
+      "IND_14_RES",
+      "IND_14_META",
+      "IND_14_ALCANCE_META",
+      "IND_15_NUM",
+      "IND_15_DEN",
+      "IND_15_RES",
+      "IND_15_META",
+      "IND_15_ALCANCE_META",
+      "VL_PQA_VS",
+      "METAS_ALCANCADAS",
+      "METAS_NAO_ALCANCADAS",
+      "QTDE_INDICADORES",
+      "QTDE_AUSENCIA_CASOS",
+      "PERCENTUAL"
+    ],
+    "years": [
+      2020
+    ],
+    "ufs": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "municipalities": 5570,
+    "duplicates": 0,
+    "missing": {
+      "ANO": 0,
+      "UF": 0,
+      "COD_MUN": 0,
+      "NOME_MUN": 0,
+      "POP_ANO": 0,
+      "IND_01_NUM": 0,
+      "IND_01_DEN": 0,
+      "IND_01_RES": 0,
+      "IND_01_META": 0,
+      "IND_01_ALCANCE_META": 0,
+      "IND_02_NUM": 0,
+      "IND_02_DEN": 0,
+      "IND_02_RES": 0,
+      "IND_02_META": 0,
+      "IND_02_ALCANCE_META": 0,
+      "IND_03_NUM": 0,
+      "IND_03_DEN": 0,
+      "IND_03_RES": 0,
+      "IND_03_META": 0,
+      "IND_03_ALCANCE_META": 0,
+      "IND_04_NUM": 0,
+      "IND_04_DEN": 0,
+      "IND_04_RES": 0,
+      "IND_04_META": 0,
+      "IND_04_ALCANCE_META": 0,
+      "IND_05_NUM": 0,
+      "IND_05_DEN": 0,
+      "IND_05_RES": 0,
+      "IND_05_META": 0,
+      "IND_05_ALCANCE_META": 0,
+      "IND_06_NUM": 3391,
+      "IND_06_DEN": 3391,
+      "IND_06_RES": 0,
+      "IND_06_META": 0,
+      "IND_06_ALCANCE_META": 0,
+      "IND_07_NUM": 0,
+      "IND_07_DEN": 0,
+      "IND_07_RES": 0,
+      "IND_07_META": 0,
+      "IND_07_ALCANCE_META": 0,
+      "IND_08_NUM": 5570,
+      "IND_08_DEN": 5570,
+      "IND_08_RES": 5570,
+      "IND_08_META": 5570,
+      "IND_08_ALCANCE_META": 0,
+      "IND_09_NUM": 0,
+      "IND_09_DEN": 0,
+      "IND_09_RES": 0,
+      "IND_09_META": 0,
+      "IND_09_ALCANCE_META": 0,
+      "IND_10_NUM": 0,
+      "IND_10_DEN": 0,
+      "IND_10_RES": 0,
+      "IND_10_META": 0,
+      "IND_10_ALCANCE_META": 0,
+      "IND_11_NUM": 0,
+      "IND_11_DEN": 0,
+      "IND_11_RES": 0,
+      "IND_11_META": 0,
+      "IND_11_ALCANCE_META": 0,
+      "IND_12_NUM": 0,
+      "IND_12_DEN": 0,
+      "IND_12_RES": 0,
+      "IND_12_META": 0,
+      "IND_12_ALCANCE_META": 0,
+      "IND_13_NUM": 0,
+      "IND_13_DEN": 0,
+      "IND_13_RES": 0,
+      "IND_13_META": 0,
+      "IND_13_ALCANCE_META": 0,
+      "IND_14_NUM": 1234,
+      "IND_14_DEN": 1234,
+      "IND_14_RES": 0,
+      "IND_14_META": 0,
+      "IND_14_ALCANCE_META": 0,
+      "IND_15_NUM": 5570,
+      "IND_15_DEN": 5570,
+      "IND_15_RES": 5570,
+      "IND_15_META": 0,
+      "IND_15_ALCANCE_META": 5570,
+      "VL_PQA_VS": 9,
+      "METAS_ALCANCADAS": 9,
+      "METAS_NAO_ALCANCADAS": 9,
+      "QTDE_INDICADORES": 0,
+      "QTDE_AUSENCIA_CASOS": 0,
+      "PERCENTUAL": 9
+    },
+    "status": {
+      "IND_01_META": {
+        "Sim": 4073,
+        "Não": 1497
+      },
+      "IND_01_ALCANCE_META": {
+        "1": 4073,
+        "0": 1497
+      },
+      "IND_02_META": {
+        "Não": 2840,
+        "Sim": 2730
+      },
+      "IND_02_ALCANCE_META": {
+        "0": 2840,
+        "1": 2730
+      },
+      "IND_03_META": {
+        "Sim": 3359,
+        "Não": 2211
+      },
+      "IND_03_ALCANCE_META": {
+        "1": 3359,
+        "0": 2211
+      },
+      "IND_04_META": {
+        "Não": 4134,
+        "Sim": 1436
+      },
+      "IND_04_ALCANCE_META": {
+        "0": 4134,
+        "1": 1436
+      },
+      "IND_05_META": {
+        "Não": 3813,
+        "Sim": 1757
+      },
+      "IND_05_ALCANCE_META": {
+        "0": 3813,
+        "1": 1757
+      },
+      "IND_06_META": {
+        "Não": 4420,
+        "Sim": 1150
+      },
+      "IND_06_ALCANCE_META": {
+        "0": 4420,
+        "1": 1150
+      },
+      "IND_07_META": {
+        "Não": 5432,
+        "Sim": 138
+      },
+      "IND_07_ALCANCE_META": {
+        "0": 5432,
+        "1": 138
+      },
+      "IND_08_META": {
+        "nan": 5570
+      },
+      "IND_08_ALCANCE_META": {
+        "0": 5570
+      },
+      "IND_09_META": {
+        "Não": 3582,
+        "Sim": 1988
+      },
+      "IND_09_ALCANCE_META": {
+        "0": 3582,
+        "1": 1988
+      },
+      "IND_10_META": {
+        "Não": 4079,
+        "Sim": 1491
+      },
+      "IND_10_ALCANCE_META": {
+        "0": 4079,
+        "1": 1491
+      },
+      "IND_11_META": {
+        "Não": 4216,
+        "Sim": 1354
+      },
+      "IND_11_ALCANCE_META": {
+        "0": 4216,
+        "1": 1354
+      },
+      "IND_12_META": {
+        "Sim": 3487,
+        "Não": 2083
+      },
+      "IND_12_ALCANCE_META": {
+        "1": 3487,
+        "0": 2083
+      },
+      "IND_13_META": {
+        "Sim": 3591,
+        "Não": 1979
+      },
+      "IND_13_ALCANCE_META": {
+        "1": 3591,
+        "0": 1979
+      },
+      "IND_14_META": {
+        "Sim": 3709,
+        "Não": 1861
+      },
+      "IND_14_ALCANCE_META": {
+        "1": 3709,
+        "0": 1861
+      },
+      "IND_15_META": {
+        "0": 5570
+      },
+      "IND_15_ALCANCE_META": {
+        "nan": 5570
+      }
+    },
+    "zero_denominators": {
+      "IND_01_DEN": 0,
+      "IND_02_DEN": 0,
+      "IND_03_DEN": 31,
+      "IND_04_DEN": 0,
+      "IND_05_DEN": 0,
+      "IND_06_DEN": 25,
+      "IND_07_DEN": 5111,
+      "IND_08_DEN": 0,
+      "IND_09_DEN": 2864,
+      "IND_10_DEN": 2940,
+      "IND_11_DEN": 3,
+      "IND_12_DEN": 38,
+      "IND_13_DEN": 1395,
+      "IND_14_DEN": 0,
+      "IND_15_DEN": 0
+    }
+  },
+  "PQA_VS_2021": {
+    "rows": 5561,
+    "columns": [
+      "ANO",
+      "UF",
+      "COD_MUN",
+      "NOME_MUN",
+      "POP_ANO",
+      "IND_01_NUM",
+      "IND_01_DEN",
+      "IND_01_RES",
+      "IND_01_META",
+      "IND_01_ALCANCE_META",
+      "IND_02_NUM",
+      "IND_02_DEN",
+      "IND_02_RES",
+      "IND_02_META",
+      "IND_02_ALCANCE_META",
+      "IND_03_NUM",
+      "IND_03_DEN",
+      "IND_03_RES",
+      "IND_03_META",
+      "IND_03_ALCANCE_META",
+      "IND_04_NUM",
+      "IND_04_DEN",
+      "IND_04_RES",
+      "IND_04_META",
+      "IND_04_ALCANCE_META",
+      "IND_05_NUM",
+      "IND_05_DEN",
+      "IND_05_RES",
+      "IND_05_META",
+      "IND_05_ALCANCE_META",
+      "IND_06_NUM",
+      "IND_06_DEN",
+      "IND_06_RES",
+      "IND_06_META",
+      "IND_06_ALCANCE_META",
+      "IND_07_NUM",
+      "IND_07_DEN",
+      "IND_07_RES",
+      "IND_07_META",
+      "IND_07_ALCANCE_META",
+      "IND_08_NUM",
+      "IND_08_DEN",
+      "IND_08_RES",
+      "IND_08_META",
+      "IND_08_ALCANCE_META",
+      "IND_09_NUM",
+      "IND_09_DEN",
+      "IND_09_RES",
+      "IND_09_META",
+      "IND_09_ALCANCE_META",
+      "IND_10_NUM",
+      "IND_10_DEN",
+      "IND_10_RES",
+      "IND_10_META",
+      "IND_10_ALCANCE_META",
+      "IND_11_NUM",
+      "IND_11_DEN",
+      "IND_11_RES",
+      "IND_11_META",
+      "IND_11_ALCANCE_META",
+      "IND_12_NUM",
+      "IND_12_DEN",
+      "IND_12_RES",
+      "IND_12_META",
+      "IND_12_ALCANCE_META",
+      "IND_13_NUM",
+      "IND_13_DEN",
+      "IND_13_RES",
+      "IND_13_META",
+      "IND_13_ALCANCE_META",
+      "IND_14_NUM",
+      "IND_14_DEN",
+      "IND_14_RES",
+      "IND_14_META",
+      "IND_14_ALCANCE_META",
+      "IND_15_NUM",
+      "IND_15_DEN",
+      "IND_15_RES",
+      "IND_15_META",
+      "IND_15_ALCANCE_META",
+      "VL_PQA_VS",
+      "METAS_ALCANCADAS",
+      "METAS_NAO_ALCANCADAS",
+      "QTDE_INDICADORES",
+      "QTDE_AUSENCIA_CASOS",
+      "PERCENTUAL"
+    ],
+    "years": [
+      2021
+    ],
+    "ufs": [
+      "AC",
+      "AL",
+      "AM",
+      "AP",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MG",
+      "MS",
+      "MT",
+      "PA",
+      "PB",
+      "PE",
+      "PI",
+      "PR",
+      "RJ",
+      "RN",
+      "RO",
+      "RR",
+      "RS",
+      "SC",
+      "SE",
+      "SP",
+      "TO"
+    ],
+    "municipalities": 5561,
+    "duplicates": 0,
+    "missing": {
+      "ANO": 0,
+      "UF": 0,
+      "COD_MUN": 0,
+      "NOME_MUN": 0,
+      "POP_ANO": 0,
+      "IND_01_NUM": 0,
+      "IND_01_DEN": 0,
+      "IND_01_RES": 0,
+      "IND_01_META": 0,
+      "IND_01_ALCANCE_META": 0,
+      "IND_02_NUM": 0,
+      "IND_02_DEN": 0,
+      "IND_02_RES": 0,
+      "IND_02_META": 0,
+      "IND_02_ALCANCE_META": 0,
+      "IND_03_NUM": 0,
+      "IND_03_DEN": 0,
+      "IND_03_RES": 0,
+      "IND_03_META": 0,
+      "IND_03_ALCANCE_META": 0,
+      "IND_04_NUM": 0,
+      "IND_04_DEN": 0,
+      "IND_04_RES": 0,
+      "IND_04_META": 0,
+      "IND_04_ALCANCE_META": 0,
+      "IND_05_NUM": 0,
+      "IND_05_DEN": 0,
+      "IND_05_RES": 0,
+      "IND_05_META": 0,
+      "IND_05_ALCANCE_META": 0,
+      "IND_06_NUM": 3650,
+      "IND_06_DEN": 3650,
+      "IND_06_RES": 0,
+      "IND_06_META": 0,
+      "IND_06_ALCANCE_META": 0,
+      "IND_07_NUM": 0,
+      "IND_07_DEN": 0,
+      "IND_07_RES": 0,
+      "IND_07_META": 0,
+      "IND_07_ALCANCE_META": 0,
+      "IND_08_NUM": 5561,
+      "IND_08_DEN": 5561,
+      "IND_08_RES": 5561,
+      "IND_08_META": 0,
+      "IND_08_ALCANCE_META": 0,
+      "IND_09_NUM": 78,
+      "IND_09_DEN": 78,
+      "IND_09_RES": 47,
+      "IND_09_META": 0,
+      "IND_09_ALCANCE_META": 0,
+      "IND_10_NUM": 0,
+      "IND_10_DEN": 0,
+      "IND_10_RES": 0,
+      "IND_10_META": 0,
+      "IND_10_ALCANCE_META": 0,
+      "IND_11_NUM": 0,
+      "IND_11_DEN": 0,
+      "IND_11_RES": 0,
+      "IND_11_META": 0,
+      "IND_11_ALCANCE_META": 0,
+      "IND_12_NUM": 0,
+      "IND_12_DEN": 0,
+      "IND_12_RES": 0,
+      "IND_12_META": 0,
+      "IND_12_ALCANCE_META": 0,
+      "IND_13_NUM": 1110,
+      "IND_13_DEN": 1110,
+      "IND_13_RES": 0,
+      "IND_13_META": 0,
+      "IND_13_ALCANCE_META": 0,
+      "IND_14_NUM": 1190,
+      "IND_14_DEN": 1190,
+      "IND_14_RES": 0,
+      "IND_14_META": 0,
+      "IND_14_ALCANCE_META": 0,
+      "IND_15_NUM": 5561,
+      "IND_15_DEN": 5561,
+      "IND_15_RES": 5561,
+      "IND_15_META": 0,
+      "IND_15_ALCANCE_META": 5561,
+      "VL_PQA_VS": 0,
+      "METAS_ALCANCADAS": 0,
+      "METAS_NAO_ALCANCADAS": 0,
+      "QTDE_INDICADORES": 0,
+      "QTDE_AUSENCIA_CASOS": 0,
+      "PERCENTUAL": 0
+    },
+    "status": {
+      "IND_01_META": {
+        "Sim": 5159,
+        "Não": 402
+      },
+      "IND_01_ALCANCE_META": {
+        "1": 5159,
+        "0": 402
+      },
+      "IND_02_META": {
+        "Sim": 2823,
+        "Não": 2738
+      },
+      "IND_02_ALCANCE_META": {
+        "1": 2823,
+        "0": 2738
+      },
+      "IND_03_META": {
+        "Não": 3669,
+        "Sim": 1892
+      },
+      "IND_03_ALCANCE_META": {
+        "0": 3669,
+        "1": 1892
+      },
+      "IND_04_META": {
+        "Não": 4648,
+        "Sim": 913
+      },
+      "IND_04_ALCANCE_META": {
+        "0": 4648,
+        "1": 913
+      },
+      "IND_05_META": {
+        "Não": 3497,
+        "Sim": 2064
+      },
+      "IND_05_ALCANCE_META": {
+        "0": 3497,
+        "1": 2064
+      },
+      "IND_06_META": {
+        "Não": 4420,
+        "Sim": 1141
+      },
+      "IND_06_ALCANCE_META": {
+        "0": 4420,
+        "1": 1141
+      },
+      "IND_07_META": {
+        "Não": 5396,
+        "Sim": 165
+      },
+      "IND_07_ALCANCE_META": {
+        "0": 5396,
+        "1": 165
+      },
+      "IND_08_META": {
+        "Sim": 5561
+      },
+      "IND_08_ALCANCE_META": {
+        "1": 5561
+      },
+      "IND_09_META": {
+        "Não": 3771,
+        "Sim": 1712,
+        "Ver NT Nº 103/2021-CGIAE": 78
+      },
+      "IND_09_ALCANCE_META": {
+        "0": 3849,
+        "1": 1712
+      },
+      "IND_10_META": {
+        "Não": 3888,
+        "Sim": 1673
+      },
+      "IND_10_ALCANCE_META": {
+        "0": 3888,
+        "1": 1673
+      },
+      "IND_11_META": {
+        "Não": 3754,
+        "Sim": 1807
+      },
+      "IND_11_ALCANCE_META": {
+        "0": 3754,
+        "1": 1807
+      },
+      "IND_12_META": {
+        "Sim": 3759,
+        "Não": 1802
+      },
+      "IND_12_ALCANCE_META": {
+        "1": 3759,
+        "0": 1802
+      },
+      "IND_13_META": {
+        "Sim": 3477,
+        "Não": 2084
+      },
+      "IND_13_ALCANCE_META": {
+        "1": 3477,
+        "0": 2084
+      },
+      "IND_14_META": {
+        "Sim": 3694,
+        "Não": 1867
+      },
+      "IND_14_ALCANCE_META": {
+        "1": 3694,
+        "0": 1867
+      },
+      "IND_15_META": {
+        "0": 5561
+      },
+      "IND_15_ALCANCE_META": {
+        "nan": 5561
+      }
+    },
+    "zero_denominators": {
+      "IND_01_DEN": 0,
+      "IND_02_DEN": 0,
+      "IND_03_DEN": 4,
+      "IND_04_DEN": 0,
+      "IND_05_DEN": 0,
+      "IND_06_DEN": 23,
+      "IND_07_DEN": 5018,
+      "IND_08_DEN": 0,
+      "IND_09_DEN": 2895,
+      "IND_10_DEN": 2635,
+      "IND_11_DEN": 4,
+      "IND_12_DEN": 176,
+      "IND_13_DEN": 0,
+      "IND_14_DEN": 0,
+      "IND_15_DEN": 0
+    }
+  }
+}
