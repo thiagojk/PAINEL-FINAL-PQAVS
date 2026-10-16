@@ -16,7 +16,7 @@ Os códigos mudam de significado, especialmente em 2018. Todo ano usa seu própr
 
 ## Requisitos e instalação
 
-Python 3.12 e Node.js 24. Linux para o mecanismo de lock de escrita (`fcntl`). Não é necessário banco externo, chave de API nem outro serviço.
+Python 3.12 e Node.js 24. O bloqueio de escrita usa `fcntl` em Linux/macOS e `msvcrt` em Windows. Não é necessário banco externo, chave de API nem outro serviço.
 
 ```bash
 cd /workspace/PAINEL-FINAL-PQAVS
@@ -26,6 +26,18 @@ npm --prefix frontend ci
 ```
 
 `requirements.txt` declara dependências diretas; `requirements.lock` congela a instalação validada. O lock npm é versionado. Para instalar fora da nuvem, ajuste apenas o diretório inicial.
+
+### Iniciar no Windows com dois cliques
+
+1. Instale **Python 3.12**, marcando **Add python.exe to PATH**, e **Node.js 24 LTS**, incluindo o npm. Feche terminais antigos depois da instalação. O iniciador mostra instruções se alguma ferramenta estiver ausente ou com versão incompatível.
+2. Baixe/clone a branch que contém o iniciador e extraia todo o projeto para uma pasta local. Não execute diretamente de dentro de um ZIP nem copie somente o `.bat`: ele usa o auxiliar `scripts/windows_launcher.py` e os arquivos do projeto.
+3. Dê dois cliques em **`INICIAR_PAINEL.bat`**, na raiz. Não é necessário abrir terminal, ativar o venv ou executar npm manualmente. Na primeira execução, é necessário acesso à internet para instalar as dependências oficiais.
+4. O iniciador cria `.venv` quando necessário, confere as versões instaladas do lock Python e reutiliza as dependências válidas. Para Node, registra uma assinatura dos manifests e do runtime dentro de `frontend/node_modules`; reinstala com `npm ci` apenas na primeira preparação, quando os manifests/runtime mudam ou as dependências estão incompletas. Nenhum lockfile é reescrito.
+5. Backend e frontend abrem em **duas janelas separadas**. O iniciador espera respostas HTTP do FastAPI, do Vite e da API pelo proxy antes de abrir automaticamente **http://localhost:5173** no navegador padrão. Os serviços locais ficam vinculados a `127.0.0.1`. Mantenha as duas janelas abertas e feche-as quando terminar.
+
+Se os serviços já estiverem saudáveis, o iniciador os reutiliza. Se 8000 ou 5173 estiver ocupada por um serviço não identificado, ele informa o conflito e não encerra processos nem muda silenciosamente a porta. Se a inicialização falhar ou exceder dois minutos, consulte as mensagens na janela correspondente. Um `.venv` inválido pode ser renomeado e recriado; **não remova `data/`**. O arquivo usa caminhos relativos à sua própria localização, inclusive se a pasta do projeto contiver espaços.
+
+O iniciador não baixa nem importa dados automaticamente e preserva `PQAVS_DATA_DIR` e `PQAVS_ADMIN_TOKEN` se já estiverem definidos no Windows. Em um clone sem base, abra **Atualizar Dados** para validar e importar o Excel. Sem token de ambiente, a chave administrativa local fica em `data/admin.key`; mantenha-a privada. O diretório de dados continua fora do Git. Este iniciador é apenas local e não modifica o deploy no Render nem o design do dashboard.
 
 ## Importação inicial
 
