@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: painel-final-pqavs
+    runtime: python
+    plan: standard
+    numInstances: 1
+    buildCommand: >-
+      pip install -r backend/requirements.lock &&
+      npm --prefix frontend ci --include=dev &&
+      npm --prefix frontend run build
+    startCommand: uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.14
+      - key: NODE_VERSION
+        value: 24.19.0
+      - key: PQAVS_DATA_DIR
+        value: /var/data/pqavs
+      - key: PQAVS_ADMIN_TOKEN
+        sync: false
+    disk:
+      name: pqavs-data
+      mountPath: /var/data/pqavs
+      sizeGB: 5

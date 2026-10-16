@@ -139,3 +139,97 @@ docker compose up --build
 ```
 
 O frontend é servido pelo Nginx na porta local 8080, com proxy interno para o backend. A pasta `data/` persiste por bind mount. Sem base inicial, utilize a tela administrativa ou a CLI no contêiner; não copie dados reais para a imagem. A rede do builder precisa resolver e alcançar os registros oficiais do npm e PyPI. Nesta máquina, o build em contêiner encontrou falha de DNS ao baixar dependências; a execução nativa foi validada. Não foi desativada nenhuma verificação de TLS ou integridade.
+
+## Deploy no Render
+
+O arquivo [`render.yaml`](render.yaml) prepara **um único Web Service com runtime Python nativo**, sem Docker ou Nginx no Render. O build instala as dependências Python e Node e gera `frontend/dist`. Depois, o próprio FastAPI serve os arquivos compilados e as páginas React na mesma origem de `/api`. Não é necessário publicar um Static Site nem outro backend.
+
+As rotas atuais do React (`/`, `/estados`, `/municipios`, `/indicadores`, `/historico`, `/comparacoes`, `/dados` e `/atualizar`, com seus filtros na query string) recebem `index.html`, inclusive em acesso direto e refresh. Os assets são servidos somente de `frontend/dist`. Arquivos ausentes e endpoints `/api` inexistentes continuam retornando 404. A API e suas páginas de documentação preservam prioridade. Sem build local, o backend continua disponível como API; o Vite de desenvolvimento e seu proxy para a porta 8000 permanecem inalterados.
+
+### Configuração do serviço
+
+| Campo | Valor |
+| --- | --- |
+| Repositório | `thiagojk/PAINEL-FINAL-PQAVS` |
+| Runtime | Python nativo |
+| Diretório raiz do serviço | Raiz do repositório; não usar `frontend/` ou `backend/` |
+| Serviço | `painel-final-pqavs` |
+| Plano declarado | `standard` (pago); conferir preço antes de criar |
+| Instâncias | 1 |
+| Health check | `/api/health` |
+| Persistent Disk | `pqavs-data`, 5 GB |
+| Mount path exato | `/var/data/pqavs` |
+
+Foi escolhido um serviço com memória acima do plano inicial de 512 MB porque a leitura e normalização de todo o Excel ocorrem em memória. O consumo da base completa deverá ser acompanhado no Render; o teste de implantação descrito abaixo não constitui medição de capacidade nessa plataforma. O Persistent Disk também é pago e não está disponível no Web Service gratuito. O SQLite e o disco local exigem manter uma única instância. Ajustar o plano/disco deve ser uma decisão explícita ao revisar o Blueprint.
+
+**Build Command**, executado na raiz:
+
+```bash
+pip install -r backend/requirements.lock && npm --prefix frontend ci --include=dev && npm --prefix frontend run build
+```
+
+O `--include=dev` mantém TypeScript, Vite e Tailwind disponíveis durante o build, mesmo se o ambiente estiver configurado para produção. O resultado real do Vite é `frontend/dist/`, que contém apenas arquivos públicos compilados. Esse diretório não vai para o Git: é reconstruído em cada deploy. O build não importa o backend, não cria uma base e não depende do disco persistente estar montado nessa etapa.
+
+**Start Command**, também na raiz:
+
+```bash
+uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
+```
+
+Não substitua `$PORT` por 8000 em produção. O Render fornece essa variável e o comando usa seu valor. O servidor entrega frontend e API pela mesma porta; o navegador usa URLs relativas `/api`, sem depender de `localhost:8000` ou de configuração CORS entre serviços.
+
+**Variáveis de ambiente:**
+
+| Nome | Configuração |
+| --- | --- |
+| `PYTHON_VERSION` | `3.12.14`, definido no Blueprint |
+| `NODE_VERSION` | `24.19.0`, definido no Blueprint |
+| `PQAVS_DATA_DIR` | `/var/data/pqavs`, definido no Blueprint e igual ao mount path |
+| `PQAVS_ADMIN_TOKEN` | Segredo que você informa ao criar o Blueprint (`sync: false`); nenhum valor está no repositório |
+| `PORT` | Fornecido pelo Render; não cadastrar valor fixo |
+
+Gere `PQAVS_ADMIN_TOKEN` no seu gerenciador de senhas, com pelo menos 32 bytes aleatórios. Alternativamente, execute `openssl rand -hex 32` **no seu próprio terminal** e salve o resultado em local seguro. Cole o valor somente no campo secreto de ambiente do Render e, ao administrar o painel, no campo de senha da página Atualizar Dados. Não coloque o valor em arquivos versionados, comandos de build, URLs, logs ou mensagens. Não use prefixo `VITE_` para esse segredo: ele deve existir apenas no processo Python.
+
+### Primeiro deploy e importação
+
+1. Aplique o commit de preparação à branch que pretende publicar e envie essa branch ao GitHub. O Render só terá acesso a alterações que estejam no repositório remoto. O trabalho de preparação, por si só, não cria nenhum serviço nem modifica sua conta Render.
+2. No painel Render, escolha criar um **Blueprint**, conecte sua conta GitHub e autorize o repositório `thiagojk/PAINEL-FINAL-PQAVS`. Selecione a branch que já contenha `render.yaml`. Confira que o arquivo é lido da raiz.
+3. Revise o único Web Service proposto, o plano `standard`, a região e os custos. O Blueprint declara o Persistent Disk `pqavs-data`, com 5 GB e mount path **`/var/data/pqavs`**. Confirme sua criação antes de aplicar. Não utilize o plano gratuito para armazenamento persistente.
+4. Preencha o segredo `PQAVS_ADMIN_TOKEN` solicitado pelo Blueprint. Confira as demais variáveis, especialmente `PQAVS_DATA_DIR=/var/data/pqavs`. Se optar por configurar manualmente um Web Service em vez de Blueprint, use os mesmos comandos/variáveis da tabela e crie o disco na seção Disks antes da primeira importação.
+5. Aplique a configuração e acompanhe o build e a inicialização nos logs do Render. O health check `/api/health` deve responder HTTP 200 com `status: ok`. Na primeira instalação, `dataset: false` é esperado e não torna o serviço indisponível: significa apenas que ainda não houve importação.
+6. Abra a URL HTTPS atribuída pelo Render no painel do serviço. O nome `painel-final-pqavs.onrender.com` é apenas um exemplo; use a URL efetivamente atribuída. A página inicial mostrará o estado vazio, com acesso à página **Atualizar Dados**. Teste também abrir essa rota diretamente e atualizar o navegador.
+7. Na página **Atualizar Dados**, informe a mesma chave configurada em `PQAVS_ADMIN_TOKEN` e selecione a `Base_Painel.xlsx` local (até 40 MB). Clique em **Validar arquivo**, revise o relatório e só depois clique em **Confirmar importação**. A validação sozinha não ativa a base. A importação integral deve conter todos os anos que deseja disponibilizar.
+8. Depois da confirmação, abra a Visão Geral, confira os anos e municípios e teste os filtros. O catálogo `/api/catalog` mostrará a versão ativa; `/api/health` passará a informar `dataset: true`. Não é necessário importar por Shell nem incluir o Excel no GitHub.
+9. Confira no serviço que o disco está montado e que a variável continua apontando para ele. Os arquivos `registry.sqlite`, `admin.key`, `write.lock`, `originals/`, `versions/` e `staging/` ficam todos dentro de `/var/data/pqavs`; nenhuma dessas pastas é montada como conteúdo público. O arquivo da chave local é preservado, mas, com `PQAVS_ADMIN_TOKEN` configurado, o segredo de ambiente é a chave administrativa efetiva.
+10. Anote o identificador da versão ativa mostrado no catálogo ou histórico administrativo. Reinicie o serviço pelo Render e confira que o identificador, os anos, os totais e o histórico permanecem iguais, sem fazer novo upload. Repita essa conferência depois de um novo deploy. Isso valida a persistência na sua conta Render; não confunda arquivos no sistema efêmero do serviço com um disco anexado.
+11. Nos deploys futuros, mantenha **o mesmo serviço, o mesmo Persistent Disk e o mesmo mount path/variável**. O código e `frontend/dist` são reconstruídos; `data` permanece no disco separado. Não apague o serviço/disco, não troque `PQAVS_DATA_DIR` e não adicione limpeza/importação ao Build ou Start Command. Se criar outro serviço ou mudar a região, planeje migração e backup do disco antes. Faça backup independente dos dados e monitore o espaço, pois as versões de importações são preservadas.
+
+O health check não exige uma base inicial e não contém credenciais. As APIs de leitura do dashboard continuam públicas para quem acessa a URL, como já funcionavam no projeto; a chave administrativa protege as atualizações. Somente o build é servido estaticamente: não há download público de `admin.key`, SQLite, originais, diretório de dados ou fontes do backend.
+
+### Verificação antes de publicar
+
+O fluxo local Vite + FastAPI continua válido. Para testar uma única origem, gere o frontend e inicie somente o FastAPI:
+
+```bash
+npm --prefix frontend run build
+export PORT=10000
+.venv/bin/python -m uvicorn backend.app.main:app --host 0.0.0.0 --port "$PORT"
+```
+
+A porta 10000 acima é apenas um exemplo de teste local, sem alterar o comando `$PORT` do Render. Esse comando usa a base local existente, a menos que você forneça outro `PQAVS_DATA_DIR`.
+
+Os testes automatizados de persistência usam processos FastAPI reais e um diretório temporário separado. O smoke de navegador de produção também usa somente dados sintéticos, gera uma chave temporária e não toca na base real:
+
+```bash
+.venv/bin/python -m pytest -q
+.venv/bin/python -m compileall -q backend
+.venv/bin/pip check
+npm --prefix frontend run lint
+npm --prefix frontend run build
+# Opcional, em um Python com Playwright, Pandas, openpyxl e httpx instalados:
+python3 tests/browser_production.py
+```
+
+O smoke opcional usa Chromium em `/usr/bin/chromium`, ajustável com `PQAVS_CHROMIUM`, e inicia o backend pelo `.venv` quando disponível. A configuração Docker/Compose anterior continua destinada à execução local com dois contêineres; ela não participa do deploy nativo do Render e não precisa ser modificada para esse fluxo.
+
+Consulte [os resultados desta preparação](docs/VALIDACAO_RENDER.md). O repositório está preparado para deploy, mas a criação do serviço, o segredo, o disco, o upload da base real e a verificação final na URL pública são realizados por você. Nenhuma publicação foi feita automaticamente.

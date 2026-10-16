@@ -12,6 +12,7 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
 from sqlalchemy import text
 from . import analytics as a
+from .frontend import mount_frontend
 from .storage import DATA, active_id, admin_key, import_file, inspect, registry, activate, writer_lock
 
 app=FastAPI(title='PQAVS — Indicadores e Metas',version='1.0.0')
@@ -189,3 +190,7 @@ def rollback(body:RollbackRequest):
         try: activate(body.version,'rollback')
         except ValueError as e: raise HTTPException(404,str(e)) from e
     return {'active':body.version}
+
+
+# Mount last so every API route and the OpenAPI documentation keep priority.
+mount_frontend(app)
