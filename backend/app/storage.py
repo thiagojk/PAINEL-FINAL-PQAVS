@@ -7,8 +7,8 @@ from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
 from uuid import uuid4
-import fcntl
 from sqlalchemy import create_engine, text
+from .file_lock import exclusive_file_lock
 from .ingest import inspect
 
 DATA = Path(os.environ.get('PQAVS_DATA_DIR', Path(__file__).resolve().parents[2] / 'data')).resolve()
@@ -44,10 +44,8 @@ def dataset(version=None):
 
 @contextmanager
 def writer_lock():
-    with (DATA/'write.lock').open('a') as lock:
-        fcntl.flock(lock, fcntl.LOCK_EX)
-        try: yield
-        finally: fcntl.flock(lock, fcntl.LOCK_UN)
+    with exclusive_file_lock(DATA/'write.lock'):
+        yield
 
 
 def activate(version, action):
